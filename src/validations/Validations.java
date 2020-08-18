@@ -12,5 +12,7 @@ public class Validations {
     private Pattern password;
     private Pattern phone;
     private Matcher matcher;
+    private static final String NAME_PATTERN = "^[A-Za-z]{3,25}$";
+
 
 }
