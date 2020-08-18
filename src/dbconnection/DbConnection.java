@@ -7,4 +7,8 @@ import java.sql.Connection;
  */
 public class DbConnection {
     static Connection con;
+
+    public static Connection getConnect() {
+        return con;
+    }
 }
