@@ -24,7 +24,8 @@ public class Validations {
         phone = Pattern.compile(PHONE_PATTERN);
     }
 
-    public boolean emailValidate(final String email) {
+    public boolean emailValidate(final String email1) {
+        matcher = email.matcher(email1);
         return matcher.matches();
     }
 }
