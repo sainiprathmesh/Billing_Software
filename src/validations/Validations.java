@@ -33,4 +33,8 @@ public class Validations {
         matcher = name.matcher(name1);
         return matcher.matches();
     }
+
+    public boolean passValidate(final String pass1) {
+        return matcher.matches();
+    }
 }
