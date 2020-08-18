@@ -5,4 +5,5 @@ package model;
  */
 public class EmpDetails {
     private String name;
+    private String email;
 }
