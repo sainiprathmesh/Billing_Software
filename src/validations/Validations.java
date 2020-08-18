@@ -35,6 +35,7 @@ public class Validations {
     }
 
     public boolean passValidate(final String pass1) {
+        matcher = password.matcher(pass1);
         return matcher.matches();
     }
 }
