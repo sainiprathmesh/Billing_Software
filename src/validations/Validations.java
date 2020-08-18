@@ -38,4 +38,8 @@ public class Validations {
         matcher = password.matcher(pass1);
         return matcher.matches();
     }
+
+    public boolean phoneValidate(final String phone1) {
+        return matcher.matches();
+    }
 }
