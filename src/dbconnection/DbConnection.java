@@ -10,6 +10,7 @@ public class DbConnection {
 
     public static Connection getConnect() {
         try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
         } catch (Exception e) {
 
