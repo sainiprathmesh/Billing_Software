@@ -1,5 +1,6 @@
 package dbconnection;
 
+import javax.swing.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -14,7 +15,7 @@ public class DbConnection {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/billing_software", "root", "");
         } catch (Exception e) {
-
+            JOptionPane.showMessageDialog(null, "Error : " + e);
         }
         return con;
     }
