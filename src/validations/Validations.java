@@ -15,6 +15,7 @@ public class Validations {
     private static final String NAME_PATTERN = "^[A-Za-z]{3,25}$";
     private static final String PHONE_PATTERN = "^[0-9]{10}$";
     private static final String PASS_PATTERN = "^[A-Za-z0-9]{3,25}$";
+    private static final String EMAIL_PATTERN = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@" + "[A-Za-z-]+(\\.[A-Za-z]+)*(\\.[A-Za-z]{2,3})$";
 
 
 }
