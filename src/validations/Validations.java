@@ -8,4 +8,6 @@ import java.util.regex.Pattern;
 public class Validations {
     private Pattern email;
     private Pattern name;
+    private Pattern password;
+
 }
