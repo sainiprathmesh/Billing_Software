@@ -1,5 +1,6 @@
 package validations;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
@@ -10,5 +11,6 @@ public class Validations {
     private Pattern name;
     private Pattern password;
     private Pattern phone;
+    private Matcher matcher;
 
 }
