@@ -30,6 +30,7 @@ public class Validations {
     }
 
     public boolean nameValidate(final String name1) {
+        matcher = name.matcher(name1);
         return matcher.matches();
     }
 }
