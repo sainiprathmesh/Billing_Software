@@ -32,4 +32,6 @@ public class EmpDetails {
         this.phno = phno;
     }
 
+    public EmpDetails() {
+    }
 }
