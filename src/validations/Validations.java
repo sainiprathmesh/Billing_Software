@@ -28,4 +28,8 @@ public class Validations {
         matcher = email.matcher(email1);
         return matcher.matches();
     }
+
+    public boolean nameValidate(final String name1) {
+        return matcher.matches();
+    }
 }
