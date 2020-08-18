@@ -20,6 +20,7 @@ public class Validations {
     public Validations() {
         email = Pattern.compile(EMAIL_PATTERN);
         name = Pattern.compile(NAME_PATTERN);
+        password = Pattern.compile(PASS_PATTERN);
     }
 
 }
