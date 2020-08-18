@@ -40,6 +40,7 @@ public class Validations {
     }
 
     public boolean phoneValidate(final String phone1) {
+        matcher = phone.matcher(phone1);
         return matcher.matches();
     }
 }
