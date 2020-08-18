@@ -18,7 +18,7 @@ public class Validations {
     private static final String EMAIL_PATTERN = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@" + "[A-Za-z-]+(\\.[A-Za-z]+)*(\\.[A-Za-z]{2,3})$";
 
     public Validations() {
-
+        email = Pattern.compile(EMAIL_PATTERN);
     }
 
 }
