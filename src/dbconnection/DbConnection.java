@@ -9,6 +9,11 @@ public class DbConnection {
     static Connection con;
 
     public static Connection getConnect() {
+        try {
+
+        } catch (Exception e) {
+
+        }
         return con;
     }
 }
