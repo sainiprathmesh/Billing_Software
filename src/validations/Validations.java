@@ -14,6 +14,7 @@ public class Validations {
     private Matcher matcher;
     private static final String NAME_PATTERN = "^[A-Za-z]{3,25}$";
     private static final String PHONE_PATTERN = "^[0-9]{10}$";
+    private static final String PASS_PATTERN = "^[A-Za-z0-9]{3,25}$";
 
 
 }
