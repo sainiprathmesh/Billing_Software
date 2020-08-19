@@ -2,6 +2,7 @@ package softwarebilling;
 
 import javax.swing.*;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 
 /**
  * @author prathmeshkumarsaini on 19/08/20 at 9:12 PM
@@ -89,6 +90,7 @@ public class Login extends javax.swing.JFrame {
 
         try {
             Connection con = dbconnection.DbConnection.getConnect();
+            PreparedStatement ps = con.prepareStatement("select * from register where email='" + email1 + "' and password='" + pass1 + "'");
 
         } catch (Exception e) {
             System.out.println(e);
