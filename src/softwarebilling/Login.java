@@ -24,6 +24,9 @@ public class Login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         var contentPane = getContentPane();
+
+        // --- jButton1 ---
+        jButton1.setText("Login");
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
