@@ -60,6 +60,7 @@ public class StartProject extends javax.swing.JFrame {
         contentPane.setLayout(contentPaneLayout);
         contentPaneLayout.setHorizontalGroup(contentPaneLayout.createParallelGroup().addComponent(jProgressBar1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE).addGroup(contentPaneLayout.createSequentialGroup().addGap(31, 31, 31).addComponent(jLabel1).addContainerGap(406, Short.MAX_VALUE)));
         contentPaneLayout.setVerticalGroup(contentPaneLayout.createParallelGroup().addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup().addGap(0, 486, Short.MAX_VALUE).addComponent(jLabel1).addGap(18, 18, 18).addComponent(jProgressBar1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)));
+        pack();
     }
 
     private void fromWidowOpened(java.awt.event.WindowEvent evt) {
