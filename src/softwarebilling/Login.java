@@ -82,6 +82,7 @@ public class Login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         String email1 = jTextField1.getText();
+        String pass1 = jPasswordField1.getText();
     }
 
     private JTextField jTextField1;
