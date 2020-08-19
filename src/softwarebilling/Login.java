@@ -73,6 +73,7 @@ public class Login extends javax.swing.JFrame {
                                 .addContainerGap(123, Short.MAX_VALUE))
         );
         pack();
+        setLocationRelativeTo(null);
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
