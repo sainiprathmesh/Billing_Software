@@ -97,6 +97,8 @@ public class Login extends javax.swing.JFrame {
                 module = rs.getString("module");
                 name = rs.getString("name");
                 phno = rs.getString("phone_no");
+            } else {
+
             }
 
         } catch (Exception e) {
