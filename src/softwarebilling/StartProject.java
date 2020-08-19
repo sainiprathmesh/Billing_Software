@@ -3,6 +3,8 @@ package softwarebilling;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 /**
  * @author prathmeshkumarsaini on 19/08/20
@@ -43,6 +45,16 @@ public class StartProject extends javax.swing.JFrame {
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowOpened(WindowEvent e) {
+                fromWidowOpened(e);
+            }
+        });
+    }
+
+    private void fromWidowOpened(java.awt.event.WindowEvent evt) {
+        t.start();
     }
 
     private JProgressBar jProgressBar1;
