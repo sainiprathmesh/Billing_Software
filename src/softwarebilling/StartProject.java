@@ -51,6 +51,8 @@ public class StartProject extends javax.swing.JFrame {
                 fromWidowOpened(e);
             }
         });
+
+        var contentPane = getContentPane();
     }
 
     private void fromWidowOpened(java.awt.event.WindowEvent evt) {
