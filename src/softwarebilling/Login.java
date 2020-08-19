@@ -98,7 +98,7 @@ public class Login extends javax.swing.JFrame {
                 name = rs.getString("name");
                 phno = rs.getString("phone_no");
             } else {
-
+                JOptionPane.showMessageDialog(rootPane, "Email and password didnt matched", "Error", JOptionPane.ERROR_MESSAGE);
             }
 
         } catch (Exception e) {
