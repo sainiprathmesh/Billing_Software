@@ -57,6 +57,7 @@ public class StartProject extends javax.swing.JFrame {
         jLabel1.setText("Project Module loading...!!");
 
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
+        contentPane.setLayout(contentPaneLayout);
     }
 
     private void fromWidowOpened(java.awt.event.WindowEvent evt) {
