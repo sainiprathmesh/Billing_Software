@@ -5,6 +5,6 @@ package softwarebilling;
  */
 public class SoftwareBilling {
     public static void main(String[] args) {
-
+        StartProject sp = new StartProject();
     }
 }
