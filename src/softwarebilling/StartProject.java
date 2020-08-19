@@ -31,6 +31,16 @@ public class StartProject extends javax.swing.JFrame {
         }
     });
 
+
+    /*
+     * GUI designing code
+     * */
+    @SuppressWarnings("unchecked")
+
+    private void initComponents() {
+
+    }
+
     private JProgressBar jProgressBar1;
     private JLabel jLabel1;
 }
