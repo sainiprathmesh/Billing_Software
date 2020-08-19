@@ -1,6 +1,7 @@
 package softwarebilling;
 
 import javax.swing.*;
+import java.sql.Connection;
 
 /**
  * @author prathmeshkumarsaini on 19/08/20 at 9:12 PM
@@ -87,6 +88,7 @@ public class Login extends javax.swing.JFrame {
         String module = "", name = "", phno = "";
 
         try {
+            Connection con = dbconnection.DbConnection.getConnect();
 
         } catch (Exception e) {
             System.out.println(e);
