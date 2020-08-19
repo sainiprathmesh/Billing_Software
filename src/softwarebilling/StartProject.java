@@ -30,4 +30,7 @@ public class StartProject extends javax.swing.JFrame {
             }
         }
     });
+
+    private JProgressBar jProgressBar1;
+    private JLabel jLabel1;
 }
