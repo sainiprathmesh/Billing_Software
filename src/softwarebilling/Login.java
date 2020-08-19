@@ -1,5 +1,7 @@
 package softwarebilling;
 
+import model.EmpDetails;
+
 import javax.swing.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -103,6 +105,21 @@ public class Login extends javax.swing.JFrame {
 
         } catch (Exception e) {
             System.out.println(e);
+        }
+
+        if (module.equals("admin")) {
+            //AdminPanel ap=new AdminPanel();
+            //ap.setVisible(true);
+            setVisible(false);
+        } else if (module.equals("employee")) {
+            EmpDetails ed = new EmpDetails();
+            ed.setEmail(email1);
+            ed.setName(name);
+            ed.setPhno(phno);
+
+            //EmpPanel ep=new EmpPanel(ed);
+            //ep.setVisible(true);
+            setVisible(false);
         }
     }
 
