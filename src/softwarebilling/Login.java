@@ -94,6 +94,8 @@ public class Login extends javax.swing.JFrame {
             PreparedStatement ps = con.prepareStatement("select * from register where email='" + email1 + "' and password='" + pass1 + "'");
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
+                module = rs.getString("module");
+
             }
 
         } catch (Exception e) {
