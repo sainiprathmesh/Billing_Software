@@ -39,30 +39,10 @@ public class StartProject extends javax.swing.JFrame {
      * */
     @SuppressWarnings("unchecked")
 
-    private void initComponents() {
-        jProgressBar1 = new JProgressBar();
-        jLabel1 = new JLabel();
-
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setUndecorated(true);
-        addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowOpened(WindowEvent e) {
-                fromWidowOpened(e);
-            }
-        });
-
-        var contentPane = getContentPane();
-
-        jLabel1.setText("Project Module loading...!!");
-
-        GroupLayout contentPaneLayout = new GroupLayout(contentPane);
-        contentPane.setLayout(contentPaneLayout);
-        contentPaneLayout.setHorizontalGroup(contentPaneLayout.createParallelGroup().addComponent(jProgressBar1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE).addGroup(contentPaneLayout.createSequentialGroup().addGap(31, 31, 31).addComponent(jLabel1).addContainerGap(406, Short.MAX_VALUE)));
-        contentPaneLayout.setVerticalGroup(contentPaneLayout.createParallelGroup().addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup().addGap(0, 486, Short.MAX_VALUE).addComponent(jLabel1).addGap(18, 18, 18).addComponent(jProgressBar1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)));
-        pack();
-        setLocationRelativeTo(null);
+    public StartProject() {
+        initComponents();
     }
+
 
     public static void main(String[] args) {
 
@@ -91,8 +71,48 @@ public class StartProject extends javax.swing.JFrame {
     }
 
 
-    private void fromWidowOpened(java.awt.event.WindowEvent evt) {
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {
         t.start();
+    }
+
+
+    private void initComponents() {
+
+        jProgressBar1 = new JProgressBar();
+        jLabel1 = new JLabel();
+
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowOpened(WindowEvent e) {
+                formWindowOpened(e);
+            }
+        });
+        var contentPane = getContentPane();
+
+        jLabel1.setText("Project Module loading...!!");
+
+        GroupLayout contentPaneLayout = new GroupLayout(contentPane);
+        contentPane.setLayout(contentPaneLayout);
+        contentPaneLayout.setHorizontalGroup(
+                contentPaneLayout.createParallelGroup()
+                        .addComponent(jProgressBar1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                .addGap(31, 31, 31)
+                                .addComponent(jLabel1)
+                                .addContainerGap(701, Short.MAX_VALUE))
+        );
+        contentPaneLayout.setVerticalGroup(
+                contentPaneLayout.createParallelGroup()
+                        .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
+                                .addGap(0, 723, Short.MAX_VALUE)
+                                .addComponent(jLabel1)
+                                .addGap(18, 18, 18)
+                                .addComponent(jProgressBar1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+        );
+        pack();
+        setLocationRelativeTo(null);
     }
 
     private JProgressBar jProgressBar1;
