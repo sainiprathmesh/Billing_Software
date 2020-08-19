@@ -23,6 +23,7 @@ public class Login extends javax.swing.JFrame {
         jLabel1 = new JLabel();
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        var contentPane = getContentPane();
     }
 
     private JTextField jTextField1;
