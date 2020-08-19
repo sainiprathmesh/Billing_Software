@@ -93,6 +93,8 @@ public class Login extends javax.swing.JFrame {
             Connection con = dbconnection.DbConnection.getConnect();
             PreparedStatement ps = con.prepareStatement("select * from register where email='" + email1 + "' and password='" + pass1 + "'");
             ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+            }
 
         } catch (Exception e) {
             System.out.println(e);
