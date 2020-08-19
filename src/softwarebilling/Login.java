@@ -35,6 +35,8 @@ public class Login extends javax.swing.JFrame {
 
         // --- jLabel1 ---
         jLabel1.setIcon(new ImageIcon(getClass().getResource("/image/login.png")));
+
+        GroupLayout contentPaneLayout = new GroupLayout(contentPane);
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
