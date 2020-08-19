@@ -64,6 +64,10 @@ public class StartProject extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }
 
+    public static void main(String[] args) {
+
+    }
+
     private void fromWidowOpened(java.awt.event.WindowEvent evt) {
         t.start();
     }
