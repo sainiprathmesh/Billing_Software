@@ -32,6 +32,9 @@ public class Login extends javax.swing.JFrame {
         // --- jButton2 ---
         jButton2.setText("Exit");
         jButton2.addActionListener(this::jButton2ActionPerformed);
+
+        // --- jLabel1 ---
+        jLabel1.setIcon(new ImageIcon(getClass().getResource("/image/login.png")));
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
