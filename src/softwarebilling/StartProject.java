@@ -39,6 +39,7 @@ public class StartProject extends javax.swing.JFrame {
 
     private void initComponents() {
         jProgressBar1 = new JProgressBar();
+        jLabel1 = new JLabel();
     }
 
     private JProgressBar jProgressBar1;
