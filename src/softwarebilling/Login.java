@@ -26,7 +26,7 @@ public class Login extends javax.swing.JFrame {
         var contentPane = getContentPane();
     }
 
-    private void jButton2ActionPerformed() {
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 
     }
 
