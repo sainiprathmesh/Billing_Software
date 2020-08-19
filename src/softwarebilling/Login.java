@@ -57,6 +57,21 @@ public class Login extends javax.swing.JFrame {
                                 .addContainerGap(565, Short.MAX_VALUE))
         );
 
+        contentPaneLayout.setVerticalGroup(
+                contentPaneLayout.createParallelGroup()
+                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                .addGap(39, 39, 39)
+                                .addComponent(jLabel1, GroupLayout.PREFERRED_SIZE, 102, GroupLayout.PREFERRED_SIZE)
+                                .addGap(56, 56, 56)
+                                .addComponent(jTextField1, GroupLayout.PREFERRED_SIZE, 73, GroupLayout.PREFERRED_SIZE)
+                                .addGap(77, 77, 77)
+                                .addComponent(jPasswordField1, GroupLayout.PREFERRED_SIZE, 75, GroupLayout.PREFERRED_SIZE)
+                                .addGap(100, 100, 100)
+                                .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(jButton2, GroupLayout.DEFAULT_SIZE, 56, Short.MAX_VALUE)
+                                        .addComponent(jButton1, GroupLayout.DEFAULT_SIZE, 56, Short.MAX_VALUE))
+                                .addContainerGap(123, Short.MAX_VALUE))
+        );
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
