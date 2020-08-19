@@ -20,8 +20,8 @@ public class StartProject extends javax.swing.JFrame {
             jProgressBar1.setValue(i);
             if (i == 100) {
                 t.stop();
-                //Login l = new Login();
-                //l.setVisible(true);
+                Login l = new Login();
+                l.setVisible(true);
                 setVisible(false);
             }
             if (i == 50) {
