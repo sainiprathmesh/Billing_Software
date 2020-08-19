@@ -27,6 +27,7 @@ public class Login extends javax.swing.JFrame {
 
         // --- jButton1 ---
         jButton1.setText("Login");
+        jButton1.addActionListener(this::jButton1ActionPerformed);
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
