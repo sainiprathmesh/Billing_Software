@@ -11,9 +11,12 @@ public class Login extends javax.swing.JFrame {
         initComponents();
     }
 
+    /*
+     * GUI Design Code
+     * */
     @SuppressWarnings("unchecked")
     private void initComponents() {
-
+        jTextField1 = new JTextField();
     }
 
     private JTextField jTextField1;
