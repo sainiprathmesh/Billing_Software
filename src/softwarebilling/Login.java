@@ -72,6 +72,7 @@ public class Login extends javax.swing.JFrame {
                                         .addComponent(jButton1, GroupLayout.DEFAULT_SIZE, 56, Short.MAX_VALUE))
                                 .addContainerGap(123, Short.MAX_VALUE))
         );
+        pack();
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
