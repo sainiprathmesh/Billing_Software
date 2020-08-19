@@ -22,6 +22,7 @@ public class Login extends javax.swing.JFrame {
         jButton2 = new JButton();
         jLabel1 = new JLabel();
 
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 
     private JTextField jTextField1;
