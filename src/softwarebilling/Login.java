@@ -17,6 +17,8 @@ public class Login extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     private void initComponents() {
         jTextField1 = new JTextField();
+        jPasswordField1 = new JPasswordField();
+
     }
 
     private JTextField jTextField1;
