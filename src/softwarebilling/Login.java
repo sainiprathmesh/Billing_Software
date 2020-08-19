@@ -123,6 +123,10 @@ public class Login extends javax.swing.JFrame {
         }
     }
 
+    public static void main(String[] args) {
+
+    }
+
     private JTextField jTextField1;
     private JPasswordField jPasswordField1;
     private JButton jButton1;
