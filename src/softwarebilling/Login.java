@@ -41,7 +41,7 @@ public class Login extends javax.swing.JFrame {
         jButton2.addActionListener(this::jButton2ActionPerformed);
 
         // --- jLabel1 ---
-        jLabel1.setIcon(new ImageIcon(getClass().getResource("/image/login.png")));
+        jLabel1.setIcon(new ImageIcon(getClass().getResource("/images/login.png")));
 
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
         contentPane.setLayout(contentPaneLayout);
