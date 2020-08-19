@@ -82,7 +82,14 @@ public class StartProject extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(StartProject.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new StartProject().setVisible(true);
+            }
+        });
     }
+
 
     private void fromWidowOpened(java.awt.event.WindowEvent evt) {
         t.start();
