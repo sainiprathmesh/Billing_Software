@@ -27,7 +27,7 @@ public class Login extends javax.swing.JFrame {
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
-
+        System.exit(0);
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
