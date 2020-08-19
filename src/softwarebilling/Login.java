@@ -5,6 +5,10 @@ package softwarebilling;
  */
 public class Login extends javax.swing.JFrame {
 
+    public Login() {
+        initComponents();
+    }
+
     @SuppressWarnings("unchecked")
     private void initComponents() {
 
