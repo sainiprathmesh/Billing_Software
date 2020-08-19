@@ -85,6 +85,12 @@ public class Login extends javax.swing.JFrame {
         String pass1 = jPasswordField1.getText();
 
         String module = "", name = "", phno = "";
+
+        try {
+
+        } catch (Exception e) {
+
+        }
     }
 
     private JTextField jTextField1;
