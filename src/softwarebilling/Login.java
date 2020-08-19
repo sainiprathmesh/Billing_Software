@@ -95,7 +95,7 @@ public class Login extends javax.swing.JFrame {
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 module = rs.getString("module");
-
+                name = rs.getNString("name");
             }
 
         } catch (Exception e) {
