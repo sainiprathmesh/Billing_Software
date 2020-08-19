@@ -25,7 +25,9 @@ public class StartProject extends javax.swing.JFrame {
             if (i == 50) {
                 jLabel1.setText("50% module loaded, please wait...!!");
             }
-
+            if (i == 80) {
+                jLabel1.setText("Project is going to start, thank you...!!");
+            }
         }
     });
 }
