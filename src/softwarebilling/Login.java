@@ -19,6 +19,7 @@ public class Login extends javax.swing.JFrame {
         jTextField1 = new JTextField();
         jPasswordField1 = new JPasswordField();
         jButton1 = new JButton();
+        jButton2 = new JButton();
 
     }
 
