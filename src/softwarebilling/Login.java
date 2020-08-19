@@ -89,7 +89,7 @@ public class Login extends javax.swing.JFrame {
         try {
 
         } catch (Exception e) {
-
+            System.out.println(e);
         }
     }
 
