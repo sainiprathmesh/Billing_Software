@@ -38,7 +38,7 @@ public class StartProject extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
 
     private void initComponents() {
-
+        jProgressBar1 = new JProgressBar();
     }
 
     private JProgressBar jProgressBar1;
