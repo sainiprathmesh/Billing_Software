@@ -42,6 +42,7 @@ public class StartProject extends javax.swing.JFrame {
         jLabel1 = new JLabel();
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
     }
 
     private JProgressBar jProgressBar1;
