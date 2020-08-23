@@ -89,6 +89,15 @@ public class AdminPanel extends javax.swing.JFrame {
         jLabel1.setForeground(Color.red);
     }//GEN-LAST:event_jLabel1MouseExited
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+
+        //  RegisterEmployee re=new RegisterEmployee();
+        // re.setVisible(true);
+        setVisible(false);
+
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
         // TODO add your handling code here:
 
