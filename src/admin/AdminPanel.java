@@ -110,7 +110,20 @@ public class AdminPanel extends javax.swing.JFrame {
                                         .addGap(276, 276, 276))
                 );
 
+                jPanel3Layout.setVerticalGroup(
+                        jPanel3Layout.createParallelGroup()
+                                .addGroup(jPanel3Layout.createSequentialGroup()
+                                        .addGap(31, 31, 31)
+                                        .addGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jButton3)
+                                                .addComponent(jButton4))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                                .addComponent(jLabel4)
 
+                                                .addComponent(jLabel5))
+                                        .addContainerGap(28, Short.MAX_VALUE))
+                );
             }
 
             //---- jLabel6 ----
