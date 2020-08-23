@@ -4,6 +4,8 @@ import softwarebilling.Login;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 /**
  * @author Latesh on 8/23/2020 at 11:05 AM
@@ -71,6 +73,29 @@ public class AdminPanel extends javax.swing.JFrame {
             //---- jButton5 ----
             jButton5.setIcon(new ImageIcon(getClass().getResource("/images/chngpwd.png")));
             jButton5.addActionListener(e -> jButton5ActionPerformed(e));
+
+
+            //---- jLabel1 ----
+            jLabel1.setFont(new Font("Tahoma", Font.BOLD, 18));
+            jLabel1.setForeground(new Color(255, 0, 51));
+            jLabel1.setText("Logout");
+            jLabel1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            jLabel1.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    jLabel1MouseClicked(e);
+                }
+
+                @Override
+                public void mouseEntered(MouseEvent e) {
+                    jLabel1MouseEntered(e);
+                }
+
+                @Override
+                public void mouseExited(MouseEvent e) {
+                    jLabel1MouseExited(e);
+                }
+            });
             //======== jPanel2 ========
             {
                 jPanel2.setBackground(new Color(255, 204, 204));
