@@ -73,9 +73,8 @@ public class AdminPanel extends javax.swing.JFrame {
             jButton5.addActionListener(e -> jButton5ActionPerformed(e));
 
 
+            GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
         }
-
-
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
         contentPane.setLayout(contentPaneLayout);
         contentPaneLayout.setHorizontalGroup(
