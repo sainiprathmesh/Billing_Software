@@ -1,5 +1,7 @@
 package employee;
-
+/**
+ * @author Latesh on 8/23/2020 at 2:33 PM
+ */
 import model.EmpDetails;
 import softwarebilling.Login;
 
@@ -11,9 +13,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.HashMap;
 
-/**
- * @author Latesh on 8/23/2020 at 2:33 PM
- */
+
 public class EmpPanel extends javax.swing.JFrame {
     EmpDetails ed;
 
@@ -42,7 +42,6 @@ public class EmpPanel extends javax.swing.JFrame {
 
         jLabel2.setText("_____________________________");
 
-        //---- jLabel3 ----
         jLabel3.setFont(new Font("Tahoma", Font.BOLD, 18));
         jLabel3.setForeground(new Color(255, 0, 102));
         jLabel3.setText("Logout");
