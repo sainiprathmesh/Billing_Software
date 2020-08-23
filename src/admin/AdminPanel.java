@@ -80,6 +80,16 @@ public class AdminPanel extends javax.swing.JFrame {
                 //---- jButton4 ----
                 jButton4.setIcon(new ImageIcon(getClass().getResource("/images/edititem.png")));
                 jButton4.addActionListener(e -> jButton4ActionPerformed(e));
+                //---- jLabel4 ----
+                jLabel4.setFont(new Font("Tahoma", Font.BOLD, 18));
+                jLabel4.setForeground(Color.blue);
+                jLabel4.setText("Add Item");
+
+                //---- jLabel5 ----
+                jLabel5.setFont(new Font("Tahoma", Font.BOLD, 18));
+                jLabel5.setForeground(Color.blue);
+                jLabel5.setText("Edit Item");
+
             }
 
             //---- jLabel6 ----
