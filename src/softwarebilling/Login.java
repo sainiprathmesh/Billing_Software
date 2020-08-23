@@ -111,7 +111,7 @@ public class Login extends javax.swing.JFrame {
 
         if (module.equals("admin")) {
             AdminPanel ap = new AdminPanel();
-            //ap.setVisible(true);
+            ap.setVisible(true);
             setVisible(false);
         } else if (module.equals("employee")) {
             EmpDetails ed = new EmpDetails();
