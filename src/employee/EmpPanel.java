@@ -34,6 +34,13 @@ public class EmpPanel extends javax.swing.JFrame {
 
     }
 
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {
+
+        String name = ed.getName();
+        jLabel2.setText(name);
+
+    }
+
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 
         //ChangePwd cp=new ChangePwd(ed);
