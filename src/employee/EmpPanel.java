@@ -2,6 +2,8 @@ package employee;
 
 import model.EmpDetails;
 
+import javax.swing.*;
+
 /**
  * @author Latesh on 8/23/2020 at 2:33 PM
  */
@@ -13,6 +15,12 @@ public class EmpPanel extends javax.swing.JFrame {
         this.ed = ed;
     }
 
+    private JLabel jLabel1;
+    private JLabel jLabel2;
+    private JLabel jLabel3;
+    private JButton jButton1;
+    private JButton jButton2;
+
     //    @SuppressWarnings("unchecked")
     private void initComponents() {
 //    jLabel1 = new JLabel();
@@ -21,4 +29,6 @@ public class EmpPanel extends javax.swing.JFrame {
 //    jButton1 = new JButton();
 //    jButton2 = new JButton();
 
+
     }
+}
