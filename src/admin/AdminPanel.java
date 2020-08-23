@@ -300,7 +300,7 @@ public class AdminPanel extends javax.swing.JFrame {
     }
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
-        // ChangePwd cp=new ChangePwd();
+        ChangePwd cp = new ChangePwd();
         //cp.setVisible(true);
         setVisible(false);
     }
