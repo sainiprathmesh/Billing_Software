@@ -62,6 +62,9 @@ public class EmpPanel extends javax.swing.JFrame {
 
         jButton1.setText("Start Billing");
         jButton1.addActionListener(e -> jButton1ActionPerformed(e));
+
+        jButton2.setText("Change Password");
+        jButton2.addActionListener(e -> jButton2ActionPerformed(e));
     }
 
 
