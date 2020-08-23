@@ -105,6 +105,7 @@ public class EmpPanel extends javax.swing.JFrame {
                                 .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 84, GroupLayout.PREFERRED_SIZE)
                                 .addContainerGap(221, Short.MAX_VALUE))
         );
+        pack();
     }
 
 
