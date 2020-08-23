@@ -15,6 +15,7 @@ public class EmpPanel extends javax.swing.JFrame {
         this.ed = ed;
     }
 
+
     private JLabel jLabel1;
     private JLabel jLabel2;
     private JLabel jLabel3;
@@ -23,12 +24,13 @@ public class EmpPanel extends javax.swing.JFrame {
 
     //    @SuppressWarnings("unchecked")
     private void initComponents() {
-//    jLabel1 = new JLabel();
-//    jLabel2 = new JLabel();
-//    jLabel3 = new JLabel();
-//    jButton1 = new JButton();
-//    jButton2 = new JButton();
+        jLabel1 = new JLabel();
+        jLabel2 = new JLabel();
+        jLabel3 = new JLabel();
+        jButton1 = new JButton();
+        jButton2 = new JButton();
 
 
     }
+
 }
