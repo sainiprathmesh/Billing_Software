@@ -74,7 +74,9 @@ public class AdminPanel extends javax.swing.JFrame {
             //======== jPanel3 ========
             {
                 jPanel3.setBackground(new Color(255, 204, 204));
-
+                //---- jButton3 ----
+                jButton3.setIcon(new ImageIcon(getClass().getResource("/images/additem.png")));
+                jButton3.addActionListener(e -> jButton3ActionPerformed(e));
             }
 
             //---- jLabel6 ----
