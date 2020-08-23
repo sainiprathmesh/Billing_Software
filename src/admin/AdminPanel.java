@@ -116,7 +116,7 @@ public class AdminPanel extends javax.swing.JFrame {
                 //---- jLabel3 ----
                 jLabel3.setFont(new Font("Tahoma", Font.BOLD, 18));
                 jLabel3.setForeground(Color.blue);
-                jLabel3.setText("Edit EMployee");
+                jLabel3.setText("Edit Employee");
 
                 GroupLayout jPanel2Layout = new GroupLayout(jPanel2);
                 jPanel2.setLayout(jPanel2Layout);
