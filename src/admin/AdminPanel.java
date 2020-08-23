@@ -29,6 +29,10 @@ public class AdminPanel extends javax.swing.JFrame {
         initComponents();
     }
 
+    public static void main(String args[]) {
+
+    }
+
     //@SuppressWarnings("unchecked")
     private void initComponents() {
 
@@ -64,6 +68,8 @@ public class AdminPanel extends javax.swing.JFrame {
                     ))) throw new RuntimeException();
                 }
             });
+            //---- jButton5 ----
+
         }
 
 
