@@ -65,6 +65,8 @@ public class EmpPanel extends javax.swing.JFrame {
 
         jButton2.setText("Change Password");
         jButton2.addActionListener(e -> jButton2ActionPerformed(e));
+
+        GroupLayout contentPaneLayout = new GroupLayout(contentPane);
     }
 
 
