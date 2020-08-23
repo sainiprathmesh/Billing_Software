@@ -3,6 +3,9 @@ package employee;
 import model.EmpDetails;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.HashMap;
@@ -42,6 +45,20 @@ public class EmpPanel extends javax.swing.JFrame {
         });
         var contentPane = getContentPane();
         jLabel1.setText("Welcome :");
+
+        jLabel2.setText("_____________________________");
+
+        //---- jLabel3 ----
+        jLabel3.setFont(new Font("Tahoma", Font.BOLD, 18));
+        jLabel3.setForeground(new Color(255, 0, 102));
+        jLabel3.setText("Logout");
+        jLabel3.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        jLabel3.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                jLabel3MouseClicked(e);
+            }
+        });
     }
 
 
