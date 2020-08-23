@@ -106,6 +106,7 @@ public class EmpPanel extends javax.swing.JFrame {
                                 .addContainerGap(221, Short.MAX_VALUE))
         );
         pack();
+        setLocationRelativeTo(null);
     }
 
 
