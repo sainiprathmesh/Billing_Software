@@ -46,5 +46,9 @@ public class AdminPanel extends javax.swing.JFrame {
         jLabel5 = new JLabel();
         jLabel6 = new JLabel();
         jLabel7 = new JLabel();
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        var contentPane = getContentPane();
+
     }
+
 }
