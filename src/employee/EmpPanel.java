@@ -41,6 +41,7 @@ public class EmpPanel extends javax.swing.JFrame {
             }
         });
         var contentPane = getContentPane();
+        jLabel1.setText("Welcome :");
     }
 
 
