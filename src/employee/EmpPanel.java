@@ -8,5 +8,9 @@ import model.EmpDetails;
 public class EmpPanel extends javax.swing.JFrame {
     EmpDetails ed;
 
+    public EmpPanel(EmpDetails ed) {
+        //  initComponents();
+        this.ed = ed;
+    }
 
 }
