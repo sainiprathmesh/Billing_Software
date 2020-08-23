@@ -77,6 +77,9 @@ public class AdminPanel extends javax.swing.JFrame {
                 //---- jButton3 ----
                 jButton3.setIcon(new ImageIcon(getClass().getResource("/images/additem.png")));
                 jButton3.addActionListener(e -> jButton3ActionPerformed(e));
+                //---- jButton4 ----
+                jButton4.setIcon(new ImageIcon(getClass().getResource("/images/edititem.png")));
+                jButton4.addActionListener(e -> jButton4ActionPerformed(e));
             }
 
             //---- jLabel6 ----
