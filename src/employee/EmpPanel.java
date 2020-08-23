@@ -59,6 +59,9 @@ public class EmpPanel extends javax.swing.JFrame {
                 jLabel3MouseClicked(e);
             }
         });
+
+        jButton1.setText("Start Billing");
+        jButton1.addActionListener(e -> jButton1ActionPerformed(e));
     }
 
 
