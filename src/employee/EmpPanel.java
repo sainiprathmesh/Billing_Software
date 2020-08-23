@@ -34,6 +34,14 @@ public class EmpPanel extends javax.swing.JFrame {
 
     }
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+
+        //ChangePwd cp=new ChangePwd(ed);
+        //cp.setVisible(true);
+        setVisible(false);
+
+    }
+
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 
         HashMap hm = new HashMap();
