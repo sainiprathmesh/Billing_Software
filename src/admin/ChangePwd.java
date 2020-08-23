@@ -5,4 +5,8 @@ public class ChangePwd {
         initComponents();
     }
 
+    private void initComponents() {
+        jLabel1 = new javax.swing.JLabel();
+
+    }
 }
