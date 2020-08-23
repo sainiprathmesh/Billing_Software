@@ -72,6 +72,10 @@ public class AdminPanel extends javax.swing.JFrame {
             jButton5.setIcon(new ImageIcon(getClass().getResource("/images/chngpwd.png")));
             jButton5.addActionListener(e -> jButton5ActionPerformed(e));
 
+            //---- jLabel7 ----
+            jLabel7.setFont(new Font("Tahoma", Font.BOLD, 24));
+            jLabel7.setForeground(new Color(0, 153, 51));
+            jLabel7.setText("Welcome : Admin");
 
             GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
             jPanel1.setLayout(jPanel1Layout);
