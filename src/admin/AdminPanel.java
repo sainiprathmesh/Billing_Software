@@ -71,6 +71,63 @@ public class AdminPanel extends javax.swing.JFrame {
             //---- jButton5 ----
             jButton5.setIcon(new ImageIcon(getClass().getResource("/images/chngpwd.png")));
             jButton5.addActionListener(e -> jButton5ActionPerformed(e));
+            //======== jPanel2 ========
+            {
+                jPanel2.setBackground(new Color(255, 204, 204));
+
+                //---- jButton1 ----
+                jButton1.setIcon(new ImageIcon(getClass().getResource("/images/addemployee.png")));
+                jButton1.addActionListener(e -> jButton1ActionPerformed(e));
+
+                //---- jButton2 ----
+                jButton2.setIcon(new ImageIcon(getClass().getResource("/images/editemployee.png")));
+                jButton2.addActionListener(e -> jButton2ActionPerformed(e));
+
+                //---- jLabel2 ----
+                jLabel2.setFont(new Font("Tahoma", Font.BOLD, 18));
+                jLabel2.setForeground(Color.blue);
+                jLabel2.setText("Add Employee");
+
+                //---- jLabel3 ----
+                jLabel3.setFont(new Font("Tahoma", Font.BOLD, 18));
+                jLabel3.setForeground(Color.blue);
+                jLabel3.setText("Edit EMployee");
+
+                GroupLayout jPanel2Layout = new GroupLayout(jPanel2);
+                jPanel2.setLayout(jPanel2Layout);
+                jPanel2Layout.setHorizontalGroup(
+                        jPanel2Layout.createParallelGroup()
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(266, 266, 266)
+                                        .addGroup(jPanel2Layout.createParallelGroup()
+                                                .addComponent(jButton1, GroupLayout.PREFERRED_SIZE, 108, GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(jLabel2))
+                                        .addGroup(jPanel2Layout.createParallelGroup()
+                                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
+                                                        .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 108, GroupLayout.PREFERRED_SIZE)
+                                                        .addGap(278, 278, 278))
+                                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                                        .addGap(62, 62, 62)
+                                                        .addComponent(jLabel3)
+                                                        .addContainerGap(269, Short.MAX_VALUE))))
+                );
+                jPanel2Layout.setVerticalGroup(
+                        jPanel2Layout.createParallelGroup()
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(30, 30, 30)
+                                        .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jButton1)
+                                                .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 109, GroupLayout.PREFERRED_SIZE))
+                                        .addGap(33, 33, 33)
+                                        .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                                .addComponent(jLabel2)
+                                                .addComponent(jLabel3))
+                                        .addContainerGap(36, Short.MAX_VALUE))
+                );
+            }
+
+
             //======== jPanel3 ========
             {
                 jPanel3.setBackground(new Color(255, 204, 204));
