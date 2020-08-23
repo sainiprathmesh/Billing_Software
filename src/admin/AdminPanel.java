@@ -7,5 +7,12 @@ package admin;
 
 public class AdminPanel extends javax.swing.JFrame {
 
+    public AdminPanel() {
+        initComponents();
+    }
 
+    //@SuppressWarnings("unchecked")
+    private void initComponents() {
+
+    }
 }
