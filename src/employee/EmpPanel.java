@@ -3,6 +3,8 @@ package employee;
 import model.EmpDetails;
 
 import javax.swing.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.HashMap;
 
 /**
@@ -31,12 +33,19 @@ public class EmpPanel extends javax.swing.JFrame {
         jButton1 = new JButton();
         jButton2 = new JButton();
 
-
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowOpened(WindowEvent e) {
+                formWindowOpened(e);
+            }
+        });
+        var contentPane = getContentPane();
     }
 
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {
-//        Login l=new Login();
+//     Login l=new Login();
 //        l.setVisible(true);
 //        setVisible(false);
 
