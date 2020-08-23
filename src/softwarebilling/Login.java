@@ -1,13 +1,13 @@
 package softwarebilling;
 
 import admin.AdminPanel;
+import employee.EmpPanel;
 import model.EmpDetails;
 
 import javax.swing.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-//import employee.EmpPanel;
 
 /**
  * @author prathmeshkumarsaini on 19/08/20 at 9:12 PM
@@ -119,8 +119,8 @@ public class Login extends javax.swing.JFrame {
             ed.setName(name);
             ed.setPhno(phno);
 
-            //EmpPanel ep=new EmpPanel(ed);
-            //ep.setVisible(true);
+            EmpPanel ep = new EmpPanel(ed);
+            ep.setVisible(true);
             setVisible(false);
         }
     }
