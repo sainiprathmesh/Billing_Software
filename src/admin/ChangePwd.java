@@ -7,6 +7,7 @@ public class ChangePwd {
 
     private javax.swing.JLabel jLabel1;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JLabel jLabel2;
 
     private void initComponents() {
         jLabel1 = new javax.swing.JLabel();
@@ -14,4 +15,6 @@ public class ChangePwd {
 
 
     }
+
+
 }
