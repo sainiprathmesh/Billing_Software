@@ -9,8 +9,16 @@ public class EmpPanel extends javax.swing.JFrame {
     EmpDetails ed;
 
     public EmpPanel(EmpDetails ed) {
-        //  initComponents();
+        initComponents();
         this.ed = ed;
     }
 
-}
+    //    @SuppressWarnings("unchecked")
+    private void initComponents() {
+//    jLabel1 = new JLabel();
+//    jLabel2 = new JLabel();
+//    jLabel3 = new JLabel();
+//    jButton1 = new JButton();
+//    jButton2 = new JButton();
+
+    }
