@@ -73,6 +73,13 @@ public class AdminPanel extends javax.swing.JFrame {
 
     }
 
+
+    private void jLabel1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseEntered
+        // TODO add your handling code here:
+        jLabel1.setForeground(Color.blue);
+    }
+
+
     public static void main(String args[]) {
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
