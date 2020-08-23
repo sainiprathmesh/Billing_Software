@@ -31,6 +31,20 @@ public class AdminPanel extends javax.swing.JFrame {
     //@SuppressWarnings("unchecked")
     private void initComponents() {
 
-
+        jPanel1 = new JPanel();
+        jButton5 = new JButton();
+        jLabel1 = new JLabel();
+        jPanel2 = new JPanel();
+        jButton1 = new JButton();
+        jButton2 = new JButton();
+        jLabel2 = new JLabel();
+        jLabel3 = new JLabel();
+        jPanel3 = new JPanel();
+        jButton3 = new JButton();
+        jButton4 = new JButton();
+        jLabel4 = new JLabel();
+        jLabel5 = new JLabel();
+        jLabel6 = new JLabel();
+        jLabel7 = new JLabel();
     }
 }
