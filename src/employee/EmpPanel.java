@@ -86,6 +86,25 @@ public class EmpPanel extends javax.swing.JFrame {
                                 .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+
+        contentPaneLayout.setVerticalGroup(
+                contentPaneLayout.createParallelGroup()
+                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                .addGroup(contentPaneLayout.createParallelGroup()
+                                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                                .addGap(35, 35, 35)
+                                                .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                                        .addComponent(jLabel1)
+                                                        .addComponent(jLabel2)))
+                                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                                .addGap(24, 24, 24)
+                                                .addComponent(jLabel3)))
+                                .addGap(110, 110, 110)
+                                .addComponent(jButton1, GroupLayout.PREFERRED_SIZE, 113, GroupLayout.PREFERRED_SIZE)
+                                .addGap(154, 154, 154)
+                                .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 84, GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap(221, Short.MAX_VALUE))
+        );
     }
 
 
