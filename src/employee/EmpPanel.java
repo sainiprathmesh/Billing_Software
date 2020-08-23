@@ -3,6 +3,7 @@ package employee;
 import model.EmpDetails;
 
 import javax.swing.*;
+import java.util.HashMap;
 
 /**
  * @author Latesh on 8/23/2020 at 2:33 PM
@@ -32,6 +33,17 @@ public class EmpPanel extends javax.swing.JFrame {
 
 
     }
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+
+        HashMap hm = new HashMap();
+
+        // StartBilling sb=new StartBilling(ed, hm);
+        //sb.setVisible(true);
+        setVisible(false);
+
+    }
+
 
     public static void main(String args[]) {
         try {
