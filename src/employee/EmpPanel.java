@@ -1,6 +1,7 @@
 package employee;
 
 import model.EmpDetails;
+import softwarebilling.Login;
 
 import javax.swing.*;
 import java.awt.*;
@@ -104,7 +105,7 @@ public class EmpPanel extends javax.swing.JFrame {
 
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {
-     //   Login l=new Login();
+        Login l = new Login();
 //        l.setVisible(true);
 //        setVisible(false);
 
