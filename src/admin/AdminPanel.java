@@ -87,6 +87,15 @@ public class AdminPanel extends javax.swing.JFrame {
         jLabel1.setForeground(Color.red);
     }//GEN-LAST:event_jLabel1MouseExited
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+
+        //  EditEmployee ee=new EditEmployee();
+        // ee.setVisible(true);
+        setVisible(false);
+
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
 
@@ -95,6 +104,7 @@ public class AdminPanel extends javax.swing.JFrame {
         setVisible(false);
 
     }//GEN-LAST:event_jButton5ActionPerformed
+
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
