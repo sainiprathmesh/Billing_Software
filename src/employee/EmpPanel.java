@@ -34,6 +34,14 @@ public class EmpPanel extends javax.swing.JFrame {
 
     }
 
+
+    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {
+//        Login l=new Login();
+//        l.setVisible(true);
+//        setVisible(false);
+
+    }
+
     private void formWindowOpened(java.awt.event.WindowEvent evt) {
 
         String name = ed.getName();
