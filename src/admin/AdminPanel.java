@@ -79,6 +79,11 @@ public class AdminPanel extends javax.swing.JFrame {
         jLabel1.setForeground(Color.blue);
     }
 
+    private void jLabel1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseExited
+        // TODO add your handling code here:
+        jLabel1.setForeground(Color.red);
+    }//GEN-LAST:event_jLabel1MouseExited
+
 
     public static void main(String args[]) {
         try {
