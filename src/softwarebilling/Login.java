@@ -1,12 +1,12 @@
 package softwarebilling;
 
+import admin.AdminPanel;
 import model.EmpDetails;
 
 import javax.swing.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-//import admin.AdminPanel;
 //import employee.EmpPanel;
 
 /**
@@ -110,7 +110,7 @@ public class Login extends javax.swing.JFrame {
         }
 
         if (module.equals("admin")) {
-            //AdminPanel ap=new AdminPanel();
+            AdminPanel ap = new AdminPanel();
             //ap.setVisible(true);
             setVisible(false);
         } else if (module.equals("employee")) {
