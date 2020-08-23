@@ -90,6 +90,27 @@ public class AdminPanel extends javax.swing.JFrame {
                 jLabel5.setForeground(Color.blue);
                 jLabel5.setText("Edit Item");
 
+                GroupLayout jPanel3Layout = new GroupLayout(jPanel3);
+                jPanel3.setLayout(jPanel3Layout);
+                jPanel3Layout.setHorizontalGroup(
+                        jPanel3Layout.createParallelGroup()
+                                .addGroup(jPanel3Layout.createSequentialGroup()
+                                        .addGap(273, 273, 273)
+                                        .addGroup(jPanel3Layout.createParallelGroup()
+                                                .addComponent(jButton3, GroupLayout.PREFERRED_SIZE, 107, GroupLayout.PREFERRED_SIZE)
+                                                .addGroup(jPanel3Layout.createSequentialGroup()
+                                                        .addGap(12, 12, 12)
+                                                        .addComponent(jLabel4)))
+                                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGroup(jPanel3Layout.createParallelGroup()
+                                                .addComponent(jButton4, GroupLayout.PREFERRED_SIZE, 106, GroupLayout.PREFERRED_SIZE)
+                                                .addGroup(GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                                                        .addComponent(jLabel5)
+                                                        .addGap(8, 8, 8)))
+                                        .addGap(276, 276, 276))
+                );
+
+
             }
 
             //---- jLabel6 ----
