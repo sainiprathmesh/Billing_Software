@@ -95,7 +95,23 @@ public class AdminPanel extends javax.swing.JFrame {
                                                     .addComponent(jButton5, GroupLayout.PREFERRED_SIZE, 109, GroupLayout.PREFERRED_SIZE)
                                                     .addGap(364, 364, 364))))
             );
-
+            jPanel1Layout.setVerticalGroup(
+                    jPanel1Layout.createParallelGroup()
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                    .addGap(27, 27, 27)
+                                    .addGroup(jPanel1Layout.createParallelGroup()
+                                            .addComponent(jLabel1)
+                                            .addComponent(jLabel7))
+                                    .addGap(30, 30, 30)
+                                    .addComponent(jPanel2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jPanel3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                                    .addGap(51, 51, 51)
+                                    .addComponent(jButton5)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(jLabel6)
+                                    .addGap(73, 73, 73))
+            );
         }
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
         contentPane.setLayout(contentPaneLayout);
