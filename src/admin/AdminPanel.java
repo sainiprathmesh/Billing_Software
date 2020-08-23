@@ -1,5 +1,7 @@
 package admin;
 
+import softwarebilling.Login;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -86,6 +88,15 @@ public class AdminPanel extends javax.swing.JFrame {
         // TODO add your handling code here:
         jLabel1.setForeground(Color.red);
     }//GEN-LAST:event_jLabel1MouseExited
+
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+        // TODO add your handling code here:
+
+        Login l = new Login();
+        l.setVisible(true);
+        setVisible(false);
+
+    }//GEN-LAST:event_jLabel1MouseClicked
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
