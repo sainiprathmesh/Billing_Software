@@ -67,6 +67,9 @@ public class AdminPanel extends javax.swing.JFrame {
                 }
             });
             //---- jButton5 ----
+            jButton5.setIcon(new ImageIcon(getClass().getResource("/images/chngpwd.png")));
+            jButton5.addActionListener(e -> jButton5ActionPerformed(e));
+
 
         }
 
@@ -84,6 +87,14 @@ public class AdminPanel extends javax.swing.JFrame {
         jLabel1.setForeground(Color.red);
     }//GEN-LAST:event_jLabel1MouseExited
 
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+
+        // ChangePwd cp=new ChangePwd();
+        //cp.setVisible(true);
+        setVisible(false);
+
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     public static void main(String args[]) {
         try {
