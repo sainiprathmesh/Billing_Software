@@ -96,6 +96,15 @@ public class AdminPanel extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jButton5ActionPerformed
 
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+
+        //   EditItem ei=new EditItem();
+        // ei.setVisible(true);
+        setVisible(false);
+
+    }//GEN-LAST:event_jButton4ActionPerformed
+
     public static void main(String args[]) {
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
