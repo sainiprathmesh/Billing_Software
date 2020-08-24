@@ -114,10 +114,11 @@ public class ChangePwd extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(rootPane, "Old password didnt matched", "Error", JOptionPane.ERROR_MESSAGE);
         } else if (!new_pwd.equals(cnew_pwd)) {
             JOptionPane.showMessageDialog(rootPane, "Confirm password didnt matched", "Error", JOptionPane.ERROR_MESSAGE);
-        }
+        } else {
+            try {
 
 
-    }
+            }
 
 
         }
