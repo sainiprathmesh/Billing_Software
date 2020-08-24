@@ -105,8 +105,8 @@ public class ChangePwd extends javax.swing.JFrame {
             } catch (Exception e) {
                 System.out.println(e);
             } finally {
-                try {
-
+                con.close();
+            }
 
                 }
 
