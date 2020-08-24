@@ -63,6 +63,8 @@ public class ChangePwd extends javax.swing.JFrame {
                 .addGap(196, 196, 196))
         );
         layout.setVerticalGroup(
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+
 
     }
 
