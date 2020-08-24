@@ -96,6 +96,7 @@ public class ChangePwd extends javax.swing.JFrame {
             String dboldpwd = null;
             Connection con = null;
             try {
+                con = dbconnection.DbConnection.getConnect();
 
 
             }
