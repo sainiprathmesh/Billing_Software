@@ -119,10 +119,11 @@ public class ChangePwd extends javax.swing.JFrame {
                 Connection con1 = dbconnection.DbConnection.getConnect();
                 PreparedStatement ps = con1.prepareStatement("update register set password='" + new_pwd + "' where email='admin@gmail.com'");
                 int i = ps.executeUpdate();
-                if (i > 0)
+                if (i > 0) {
+                    JOptionPane.showMessageDialog(rootPane, "Password updated successfully");
 
 
-            }
+                }
 
 
         }
