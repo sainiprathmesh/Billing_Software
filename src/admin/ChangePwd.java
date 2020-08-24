@@ -91,6 +91,7 @@ public class ChangePwd extends javax.swing.JFrame {
         }
         private void jButton1ActionPerformed (java.awt.event.ActionEvent evt){
             String old_pwd = jTextField1.getText();
+            String new_pwd = jTextField2.getText();
 
 
         }
