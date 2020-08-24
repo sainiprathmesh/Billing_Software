@@ -11,6 +11,7 @@ public class ChangePwd extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -20,6 +21,7 @@ public class ChangePwd extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
     }
 
