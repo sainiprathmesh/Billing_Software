@@ -13,9 +13,6 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * @author Deepak
- */
 public class ChangePwd extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
