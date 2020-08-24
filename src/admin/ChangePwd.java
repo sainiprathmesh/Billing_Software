@@ -127,6 +127,8 @@ public class ChangePwd extends javax.swing.JFrame {
                 } else {
                     JOptionPane.showMessageDialog(rootPane, "Password not updated due to some error", "Error", JOptionPane.ERROR_MESSAGE);
                 }
+                con1.close();
+            }
                 }
 
 
