@@ -70,7 +70,7 @@ public class ChangePwd extends javax.swing.JFrame {
                                 .addGap(59, 59, 59)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jLabel2))
+                                        .addGap(58, 58, 58)
 
 
     }
