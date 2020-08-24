@@ -51,7 +51,8 @@ public class ChangePwd extends javax.swing.JFrame {
                                                 .addGap(33, 33, 33).addComponent(jLabel1))
                                         .addGroup(layout.createSequentialGroup()
                                                 .addGap(325, 325, 325)
-                                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE))).addContainerGap(435, Short.MAX_VALUE))
+                        .addContainerGap(435, Short.MAX_VALUE))
 
 
     }
