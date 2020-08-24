@@ -89,10 +89,11 @@ public class ChangePwd extends javax.swing.JFrame {
             ap.setVisible(true);
             setVisible(false);
         }
-        private void jButton1ActionPerformed (java.awt.event.ActionEvent evt)
+        private void jButton1ActionPerformed (java.awt.event.ActionEvent evt){
+            String old_pwd = jTextField1.getText();
 
 
-    }
+        }
 
 
     }
