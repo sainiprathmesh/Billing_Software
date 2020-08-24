@@ -124,7 +124,8 @@ public class ChangePwd extends javax.swing.JFrame {
                     jTextField1.setText("");
                     jTextField2.setText("");
                     jTextField3.setText("");
-                }
+                } else {
+
                 }
 
 
