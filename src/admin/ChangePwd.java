@@ -79,7 +79,8 @@ public class ChangePwd extends javax.swing.JFrame {
                                                 .addComponent(jLabel4))
                                         .addGap(93, 93, 93)
                                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-
+                                        .addContainerGap(112, Short.MAX_VALUE))
+                        );
 
     }
 
