@@ -31,7 +31,8 @@ public class ChangePwd extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(ChangePwd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(ChangePwd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
+        } catch (IllegalAccessException ex) {
+
             private void initComponents () {
 
                 jLabel1 = new javax.swing.JLabel();
