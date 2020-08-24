@@ -56,6 +56,7 @@ public class ChangePwd extends javax.swing.JFrame {
                                 .addComponent(jLabel3))
                         .addComponent(jLabel2)
                         .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(41, 41, 41)
 
 
     }
