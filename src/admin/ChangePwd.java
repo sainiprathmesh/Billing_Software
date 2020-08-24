@@ -106,11 +106,12 @@ public class ChangePwd extends javax.swing.JFrame {
                 System.out.println(e);
             } finally {
                 con.close();
-            }
-
-                }
+            }catch(SQLException ex){
 
 
             }
+
+
+        }
 
 }
