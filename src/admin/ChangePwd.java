@@ -32,17 +32,18 @@ public class ChangePwd extends javax.swing.JFrame {
         } catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(ChangePwd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(ChangePwd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        private void initComponents () {
 
-            private void initComponents () {
-
-                jLabel1 = new javax.swing.JLabel();
-                jTextField1 = new javax.swing.JTextField();
-                jTextField2 = new javax.swing.JTextField();
-                jTextField3 = new javax.swing.JTextField();
-                jButton1 = new javax.swing.JButton();
-                jLabel2 = new javax.swing.JLabel();
-                jLabel3 = new javax.swing.JLabel();
-                jLabel4 = new javax.swing.JLabel();
+            jLabel1 = new javax.swing.JLabel();
+            jTextField1 = new javax.swing.JTextField();
+            jTextField2 = new javax.swing.JTextField();
+            jTextField3 = new javax.swing.JTextField();
+            jButton1 = new javax.swing.JButton();
+            jLabel2 = new javax.swing.JLabel();
+            jLabel3 = new javax.swing.JLabel();
+            jLabel4 = new javax.swing.JLabel();
 
                 setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
                 jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18));
