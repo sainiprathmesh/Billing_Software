@@ -88,9 +88,11 @@ public class ChangePwd extends javax.swing.JFrame {
             AdminPanel ap = new AdminPanel();
             ap.setVisible(true);
             setVisible(false);
-
-
         }
+        private void jButton1ActionPerformed (java.awt.event.ActionEvent evt)
+
+
+    }
 
 
     }
