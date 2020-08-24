@@ -99,6 +99,7 @@ public class ChangePwd extends javax.swing.JFrame {
                 con = dbconnection.DbConnection.getConnect();
                 PreparedStatement ps = con.prepareStatement("select * from register where email='admin@gmail.com'");
                 ResultSet rs = ps.executeQuery();
+                while (rs.next())
 
 
             }
