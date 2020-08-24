@@ -95,11 +95,12 @@ public class ChangePwd extends javax.swing.JFrame {
             String cnew_pwd = jTextField3.getText();
             String dboldpwd = null;
             Connection con = null;
+            try {
+
+
+            }
 
 
         }
-
-
-    }
 
 }
