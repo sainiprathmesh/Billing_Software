@@ -32,6 +32,7 @@ public class ChangePwd extends javax.swing.JFrame {
                 jLabel1MouseClicked(evt);
             }
         });
+        jButton1.setText("Change Password");
 
 
     }
