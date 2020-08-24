@@ -28,7 +28,8 @@ public class ChangePwd extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-
+            java.util.logging.Logger.getLogger(ChangePwd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
             private void initComponents () {
 
                 jLabel1 = new javax.swing.JLabel();
