@@ -102,7 +102,9 @@ public class ChangePwd extends javax.swing.JFrame {
                 while (rs.next()) {
                     dboldpwd = rs.getString("password");
                 }
-            } catch (Exception e)
+            } catch (Exception e) {
+                System.out.println(e);
+            }
 
 
         }
