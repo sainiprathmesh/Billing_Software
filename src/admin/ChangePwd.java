@@ -38,6 +38,7 @@ public class ChangePwd extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        jLabel2.setText("Old Password :");
 
 
     }
