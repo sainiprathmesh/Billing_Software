@@ -87,6 +87,7 @@ public class ChangePwd extends javax.swing.JFrame {
         private void jLabel1MouseClicked (java.awt.event.MouseEvent evt){//GEN-FIRST:event_jLabel1MouseClicked
             AdminPanel ap = new AdminPanel();
             ap.setVisible(true);
+            setVisible(false);
 
 
         }
