@@ -109,9 +109,10 @@ public class ChangePwd extends javax.swing.JFrame {
             }catch(SQLException ex){
                 Logger.getLogger(ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
             }
+        } if (!old_pwd.equals(dboldpwd))
 
 
-            }
+    }
 
 
         }
