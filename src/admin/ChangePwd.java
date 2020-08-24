@@ -109,12 +109,15 @@ public class ChangePwd extends javax.swing.JFrame {
             }catch(SQLException ex){
                 Logger.getLogger(ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
             }
-            {
-                JOptionPane.showMessageDialog(rootPane, "Old password didnt matched", "Error", JOptionPane.ERROR_MESSAGE);
-            }
-
-
         }
+        if (!old_pwd.equals(dboldpwd)) {
+            JOptionPane.showMessageDialog(rootPane, "Old password didnt matched", "Error", JOptionPane.ERROR_MESSAGE);
+        } else if (!new_pwd.equals(cnew_pwd)) {
+            JOptionPane.showMessageDialog(rootPane, "Confirm password didnt matched", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+
+
+    }
 
 
         }
