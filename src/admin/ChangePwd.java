@@ -12,6 +12,7 @@ public class ChangePwd extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -82,6 +83,8 @@ public class ChangePwd extends javax.swing.JFrame {
                                         .addContainerGap(112, Short.MAX_VALUE))
                         );
         pack();
+        setLocationRelativeTo(null);
+    }
 
 
     }
