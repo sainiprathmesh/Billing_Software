@@ -107,6 +107,8 @@ public class ChangePwd extends javax.swing.JFrame {
             } finally {
                 con.close();
             }catch(SQLException ex){
+                Logger.getLogger(ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
+            }
 
 
             }
