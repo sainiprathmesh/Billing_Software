@@ -41,6 +41,7 @@ public class ChangePwd extends javax.swing.JFrame {
         jLabel2.setText("Old Password :");
         jLabel3.setText("New Password :");
         jLabel4.setText("Confirm New Password :");
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
 
 
     }
