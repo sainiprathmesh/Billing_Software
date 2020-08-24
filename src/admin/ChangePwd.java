@@ -93,6 +93,8 @@ public class ChangePwd extends javax.swing.JFrame {
             String old_pwd = jTextField1.getText();
             String new_pwd = jTextField2.getText();
             String cnew_pwd = jTextField3.getText();
+            String dboldpwd = null;
+            Connection con = null;
 
 
         }
