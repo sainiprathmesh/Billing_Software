@@ -24,6 +24,7 @@ public class ChangePwd extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18));
 
 
     }
