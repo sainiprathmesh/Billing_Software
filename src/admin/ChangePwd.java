@@ -122,7 +122,7 @@ public class ChangePwd extends javax.swing.JFrame {
                 if (i > 0) {
                     JOptionPane.showMessageDialog(rootPane, "Password updated successfully");
                     jTextField1.setText("");
-
+                    jTextField2.setText("");
 
                 }
 
