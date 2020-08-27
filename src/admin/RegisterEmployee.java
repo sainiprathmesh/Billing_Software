@@ -135,6 +135,7 @@ public class RegisterEmployee extends javax.swing.JFrame {
             }
             if (temp == false) {
                 try {
+                    Connection con = dbconnection.DbConnection.getConnect();
 
 
                 }
