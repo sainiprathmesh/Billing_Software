@@ -104,7 +104,9 @@ public class RegisterEmployee extends javax.swing.JFrame {
         String pass1 = jPasswordField1.getText();
         String phno1 = jTextField3.getText();
         Validations v = new Validations();
-        if (!v.nameValidate(name1))
+        {
+            JOptionPane.showMessageDialog(rootPane, "Name is not valid", "Error", JOptionPane.ERROR_MESSAGE);
+        }
 
     }
 
