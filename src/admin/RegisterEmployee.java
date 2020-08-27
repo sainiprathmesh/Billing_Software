@@ -27,8 +27,9 @@ public class RegisterEmployee extends javax.swing.JFrame {
             }
         });
         jButton1.setText("Register");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
 
-
-    }
 
         }
+
+    }
