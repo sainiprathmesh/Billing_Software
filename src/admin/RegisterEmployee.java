@@ -7,6 +7,7 @@ public class RegisterEmployee extends javax.swing.JFrame {
 
     private void initComponents() {
         jLabel1 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
 
     }
 
