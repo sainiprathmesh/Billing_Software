@@ -58,7 +58,9 @@ public class RegisterEmployee extends javax.swing.JFrame {
                                                         .addComponent(jTextField3)))
                                         .addGroup(layout.createSequentialGroup()
                                                 .addGap(382, 382, 382)
-
+                                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addContainerGap(360, Short.MAX_VALUE))
+        );
 
     }
 
