@@ -129,7 +129,8 @@ public class RegisterEmployee extends javax.swing.JFrame {
                     }
                     i = i + 1;
                 }
-
+                con.close();
+            }
 
             }
 
