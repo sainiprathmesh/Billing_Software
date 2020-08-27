@@ -107,10 +107,22 @@ public class RegisterEmployee extends javax.swing.JFrame {
         {
             JOptionPane.showMessageDialog(rootPane, "Name is not valid", "Error", JOptionPane.ERROR_MESSAGE);
         }
+        else if (!v.emailValidate(email1)) {
+            JOptionPane.showMessageDialog(rootPane, "Email is not valid", "Error", JOptionPane.ERROR_MESSAGE);
+        } else if (!v.passValidate(pass1)) {
+            JOptionPane.showMessageDialog(rootPane, "Password is not valid", "Error", JOptionPane.ERROR_MESSAGE);
+        } else if (!v.phoneValidate(phno1)) {
+            JOptionPane.showMessageDialog(rootPane, "Phone No is not valid", "Error", JOptionPane.ERROR_MESSAGE);
+        } else {
+            boolean temp = false;
 
-    }
+            int i = 1;
+            try {
 
 
-}
+            }
+
+
+        }
 
     }
