@@ -5,4 +5,9 @@ public class RegisterEmployee extends javax.swing.JFrame {
         initComponents();
     }
 
+    private void initComponents() {
+        jLabel1 = new javax.swing.JLabel();
+
+    }
+
 }
