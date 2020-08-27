@@ -133,9 +133,11 @@ public class RegisterEmployee extends javax.swing.JFrame {
             } catch (Exception e) {
                 System.out.println(e);
             }
+            if (temp == false) {
+                try {
 
 
-        }
+                }
 
 
             }
