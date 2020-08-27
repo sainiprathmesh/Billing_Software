@@ -154,8 +154,16 @@ public class RegisterEmployee extends javax.swing.JFrame {
                     } else {
                         JOptionPane.showMessageDialog(rootPane, "Employee not registered due to some error", "Error", JOptionPane.ERROR_MESSAGE);
                     }
-                    con.close();
+                    con.close();catch(Exception e)
+                    {
+                        System.out.println(e);
+                    }
                 }
+            }catch(Exception e)
+            {
+                System.out.println(e);
+            }
+        }
 
 
             }
