@@ -90,6 +90,13 @@ public class RegisterEmployee extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }
 
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {
+
+        AdminPanel ap = new AdminPanel();
+        ap.setVisible(true);
+        setVisible(false);
+
+    }
     }
 
 
