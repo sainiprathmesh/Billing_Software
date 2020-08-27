@@ -56,6 +56,7 @@ public class RegisterEmployee extends javax.swing.JFrame {
                                                         .addComponent(jTextField2)
                                                         .addComponent(jPasswordField1)
                                                         .addComponent(jTextField3)))
+                                        .addGroup(layout.createSequentialGroup()
 
 
     }
