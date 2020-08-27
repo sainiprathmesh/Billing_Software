@@ -118,6 +118,7 @@ public class RegisterEmployee extends javax.swing.JFrame {
 
             int i = 1;
             try {
+                Connection con = dbconnection.DbConnection.getConnect();
 
 
             }
