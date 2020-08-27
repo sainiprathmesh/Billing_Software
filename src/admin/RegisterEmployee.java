@@ -49,7 +49,10 @@ public class RegisterEmployee extends javax.swing.JFrame {
                                                         .addComponent(jLabel2)
                                                         .addComponent(jLabel3)
                                                         .addComponent(jLabel4)
-                                                        .addComponent(jLabel5)
+                                                )
+                                                .addGap(84, 84, 84)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                        .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 417, Short.MAX_VALUE)
 
 
     }
