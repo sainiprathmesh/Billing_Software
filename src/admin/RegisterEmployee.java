@@ -29,7 +29,15 @@ public class RegisterEmployee extends javax.swing.JFrame {
         jButton1.setText("Register");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
             }
+        });
+        jLabel2.setText("Name");
+        jLabel3.setText("Email :");
+        jLabel4.setText("Password :");
+        jLabel5.setText("Phone No :");
+
+    }
 
 
         }
