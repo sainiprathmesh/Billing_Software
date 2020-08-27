@@ -121,6 +121,7 @@ public class RegisterEmployee extends javax.swing.JFrame {
                 Connection con = dbconnection.DbConnection.getConnect();
                 PreparedStatement ps = con.prepareStatement("select * from register");
                 ResultSet rs = ps.executeQuery();
+                while (rs.next())
 
 
             }
