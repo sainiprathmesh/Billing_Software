@@ -137,6 +137,14 @@ public class RegisterEmployee extends javax.swing.JFrame {
                 try {
                     Connection con = dbconnection.DbConnection.getConnect();
 
+                    PreparedStatement ps = con.prepareStatement("insert into register values(?,?,?,?,?,?)");
+                    ps.setInt(1, i);
+                    ps.setString(2, name1);
+                    ps.setString(3, email1);
+                    ps.setString(4, pass1);
+                    ps.setString(5, phno1);
+                    ps.setString(6, "employee");
+                    int res = ps.executeUpdate();
 
                 }
 
