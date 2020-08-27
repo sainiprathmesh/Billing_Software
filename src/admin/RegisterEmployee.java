@@ -86,6 +86,8 @@ public class RegisterEmployee extends javax.swing.JFrame {
                                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addContainerGap(102, Short.MAX_VALUE))
         );
+        pack();
+
 
     }
 
