@@ -62,6 +62,8 @@ public class RegisterEmployee extends javax.swing.JFrame {
                                 .addContainerGap(360, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+
 
     }
 
