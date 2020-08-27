@@ -145,11 +145,14 @@ public class RegisterEmployee extends javax.swing.JFrame {
                     ps.setString(5, phno1);
                     ps.setString(6, "employee");
                     int res = ps.executeUpdate();
+                    if (res > 0) {
+                        JOptionPane.showMessageDialog(rootPane, "Employee registered successfully");
+
+
+                    }
+
 
                 }
-
-
-            }
 
 
         }
