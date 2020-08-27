@@ -97,9 +97,18 @@ public class RegisterEmployee extends javax.swing.JFrame {
         setVisible(false);
 
     }
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        String name1 = jTextField1.getText();
+        String email1 = jTextField2.getText();
+        String pass1 = jPasswordField1.getText();
+        String phno1 = jTextField3.getText();
+        Validations v = new Validations();
+        if (!v.nameValidate(name1))
+
     }
 
 
-        }
+}
 
     }
