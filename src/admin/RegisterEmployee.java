@@ -6,12 +6,10 @@ import javax.swing.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-
 public class RegisterEmployee extends javax.swing.JFrame {
     public RegisterEmployee() {
         initComponents();
     }
-
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -22,30 +20,29 @@ public class RegisterEmployee extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
-
-    public static void main(String args[]) {
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(RegisterEmployee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
+   public static void main(String args[]) {
+       try {
+           for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+               if ("Nimbus".equals(info.getName())) {
+                   javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                   break;
+               }
+           }
+       } catch (ClassNotFoundException ex) {
+           java.util.logging.Logger.getLogger(RegisterEmployee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+       } catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(RegisterEmployee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(RegisterEmployee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(RegisterEmployee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new RegisterEmployee().setVisible(true);
-            }
-        });
-    }
+           java.util.logging.Logger.getLogger(RegisterEmployee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+       } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+           java.util.logging.Logger.getLogger(RegisterEmployee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+       }
+       java.awt.EventQueue.invokeLater(new Runnable() {
+           public void run() {
+               new RegisterEmployee().setVisible(true);
+           }
+       });
+   }
 
     private void initComponents() {
         jLabel1 = new javax.swing.JLabel();
@@ -74,12 +71,10 @@ public class RegisterEmployee extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-
         jLabel2.setText("Name");
         jLabel3.setText("Email :");
         jLabel4.setText("Password :");
         jLabel5.setText("Phone No :");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -133,13 +128,11 @@ public class RegisterEmployee extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }
-
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {
         AdminPanel ap = new AdminPanel();
         ap.setVisible(true);
         setVisible(false);
     }
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         String name1 = jTextField1.getText();
         String email1 = jTextField2.getText();
@@ -173,8 +166,6 @@ public class RegisterEmployee extends javax.swing.JFrame {
             } catch (Exception e) {
                 System.out.println(e);
             }
-
-
             if (temp == false) {
                 try {
                     Connection con = dbconnection.DbConnection.getConnect();
@@ -188,7 +179,6 @@ public class RegisterEmployee extends javax.swing.JFrame {
                     int res = ps.executeUpdate();
                     if (res > 0) {
                         JOptionPane.showMessageDialog(rootPane, "Employee registered successfully");
-
                         jTextField1.setText("");
                         jTextField2.setText("");
                         jTextField3.setText("");
@@ -196,7 +186,6 @@ public class RegisterEmployee extends javax.swing.JFrame {
                     } else {
                         JOptionPane.showMessageDialog(rootPane, "Employee not registered due to some error", "Error", JOptionPane.ERROR_MESSAGE);
                     }
-
                     con.close();
                 } catch (Exception e) {
                     System.out.println(e);
@@ -205,7 +194,5 @@ public class RegisterEmployee extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(rootPane, "Email id is already in our database", "Error", JOptionPane.ERROR_MESSAGE);
             }
         }
-
-
     }
-    }
+}
