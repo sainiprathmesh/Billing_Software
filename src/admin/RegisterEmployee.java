@@ -98,6 +98,11 @@ public class RegisterEmployee extends javax.swing.JFrame {
 
     }
 
+    public static void main(String args[]) {
+
+
+    }
+
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         String name1 = jTextField1.getText();
         String email1 = jTextField2.getText();
@@ -165,11 +170,7 @@ public class RegisterEmployee extends javax.swing.JFrame {
             }
         }
 
-
-            }
-
-
-                }
+    }
 
 
         }
