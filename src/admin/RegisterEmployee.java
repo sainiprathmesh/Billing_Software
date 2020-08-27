@@ -36,6 +36,7 @@ public class RegisterEmployee extends javax.swing.JFrame {
         jLabel3.setText("Email :");
         jLabel4.setText("Password :");
         jLabel5.setText("Phone No :");
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
 
     }
 
