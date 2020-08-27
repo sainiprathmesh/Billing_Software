@@ -87,7 +87,8 @@ public class RegisterEmployee extends javax.swing.JFrame {
                                 .addContainerGap(102, Short.MAX_VALUE))
         );
         pack();
-
+        setLocationRelativeTo(null);
+    }
 
     }
 
