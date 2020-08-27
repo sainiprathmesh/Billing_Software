@@ -47,6 +47,9 @@ public class RegisterEmployee extends javax.swing.JFrame {
                                                 .addGap(112, 112, 112)
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                         .addComponent(jLabel2)
+                                                        .addComponent(jLabel3)
+                                                        .addComponent(jLabel4)
+                                                        .addComponent(jLabel5)
 
 
     }
