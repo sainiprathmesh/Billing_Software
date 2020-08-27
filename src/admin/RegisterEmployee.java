@@ -151,9 +151,12 @@ public class RegisterEmployee extends javax.swing.JFrame {
                         jTextField2.setText("");
                         jTextField3.setText("");
                         jPasswordField1.setText("");
+                    } else {
+                        JOptionPane.showMessageDialog(rootPane, "Employee not registered due to some error", "Error", JOptionPane.ERROR_MESSAGE);
                     }
 
-                    }
+
+                }
 
 
                 }
