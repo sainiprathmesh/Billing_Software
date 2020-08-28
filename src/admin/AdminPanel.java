@@ -282,8 +282,8 @@ public class AdminPanel extends javax.swing.JFrame {
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
-        //  RegisterEmployee re=new RegisterEmployee();
-        // re.setVisible(true);
+        RegisterEmployee re = new RegisterEmployee();
+        re.setVisible(true);
         setVisible(false);
     }
 
