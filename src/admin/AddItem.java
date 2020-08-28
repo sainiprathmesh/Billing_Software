@@ -98,6 +98,8 @@ class AddItem extends javax.swing.JFrame {
         //---- jButton2 ----
 
         jButton2.setText("Add Item");
+        jButton2.addActionListener(e -> jButton2ActionPerformed(e));
+
 
 
 
