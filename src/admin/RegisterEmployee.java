@@ -169,13 +169,13 @@ public class RegisterEmployee extends javax.swing.JFrame {
             if (temp == false) {
                 try {
                     Connection con = dbconnection.DbConnection.getConnect();
-                    PreparedStatement ps = con.prepareStatement("insert into register values(?,?,?,?,?,?)");
-                    ps.setInt(1, i);
-                    ps.setString(2, name1);
-                    ps.setString(3, email1);
-                    ps.setString(4, pass1);
-                    ps.setString(5, phno1);
-                    ps.setString(6, "employee");
+                    PreparedStatement ps = con.prepareStatement("insert into register values(?,?,?,?,?)");
+                    //ps.setInt(1, i);
+                    ps.setString(1, name1);
+                    ps.setString(2, email1);
+                    ps.setString(3, pass1);
+                    ps.setString(4, phno1);
+                    ps.setString(5, "employee");
                     int res = ps.executeUpdate();
                     if (res > 0) {
                         JOptionPane.showMessageDialog(rootPane, "Employee registered successfully");
