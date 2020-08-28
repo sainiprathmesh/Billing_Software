@@ -28,6 +28,8 @@ class AddItem extends javax.swing.JFrame {
         jTextField2 = new JTextField();
         jLabel4 = new JLabel();
         jTextField3 = new JTextField();
+        jLabel5 = new JLabel();
+
 
 
 
