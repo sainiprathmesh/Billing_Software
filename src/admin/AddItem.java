@@ -34,6 +34,8 @@ class AddItem extends javax.swing.JFrame {
         jScrollPane1 = new JScrollPane();
         jTextArea1 = new JTextArea();
         jLabel7 = new JLabel();
+        jButton1 = new JButton();
+
 
 
 
