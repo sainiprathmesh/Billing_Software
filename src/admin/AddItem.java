@@ -79,6 +79,9 @@ class AddItem extends javax.swing.JFrame {
                 "Grossery",
                 "Toys"
         }));
+        //---- jLabel6 ----
+        jLabel6.setText("Description :");
+
 
 
 
