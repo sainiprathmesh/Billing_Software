@@ -89,7 +89,12 @@ class AddItem extends javax.swing.JFrame {
             jScrollPane1.setViewportView(jTextArea1);
         }
         //---- jLabel7 ----
+
         jLabel7.setText("Select Image :");
+        //---- jButton1 ----
+
+        jButton1.setText("Select Image");
+
 
 
 
