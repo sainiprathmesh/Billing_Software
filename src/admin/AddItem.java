@@ -6,7 +6,11 @@ import java.io.File;
 class AddItem extends javax.swing.JFrame {
 
     File file;
-    /*
-      Creates new form AddItem
+    /**
+     * Creates new form AddItem
      */
+    public AddItem() {
+        initComponents();
+    }
+
 }
