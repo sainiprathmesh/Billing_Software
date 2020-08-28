@@ -88,6 +88,8 @@ class AddItem extends javax.swing.JFrame {
             jTextArea1.setRows(5);
             jScrollPane1.setViewportView(jTextArea1);
         }
+        //---- jLabel7 ----
+
 
 
 
