@@ -33,6 +33,8 @@ class AddItem extends javax.swing.JFrame {
         jLabel6 = new JLabel();
         jScrollPane1 = new JScrollPane();
         jTextArea1 = new JTextArea();
+        jLabel7 = new JLabel();
+
 
 
 
