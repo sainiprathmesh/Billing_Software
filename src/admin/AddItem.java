@@ -47,6 +47,9 @@ class AddItem extends javax.swing.JFrame {
                 formWindowOpened(e);
             }
         });
+        var contentPane = getContentPane();
+
+
 
 
 
