@@ -63,6 +63,8 @@ class AddItem extends javax.swing.JFrame {
                 jLabel1MouseClicked(e);
             }
         });
+        jLabel2.setText("ID :");
+
 
 
 
