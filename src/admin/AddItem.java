@@ -78,6 +78,7 @@ class AddItem extends javax.swing.JFrame {
                 "Clothes",
                 "Grossery",
                 "Toys"
+        }));
 
 
 
@@ -85,7 +86,8 @@ class AddItem extends javax.swing.JFrame {
 
 
 
-        }
+
+    }
 
 
 
