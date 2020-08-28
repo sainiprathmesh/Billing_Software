@@ -71,6 +71,9 @@ class AddItem extends javax.swing.JFrame {
 
         jLabel4.setText("Price :");
 
+        jLabel5.setText("Categoty :");
+
+
 
 
 
