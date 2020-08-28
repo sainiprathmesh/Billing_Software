@@ -103,11 +103,13 @@ class AddItem extends javax.swing.JFrame {
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
 
         contentPane.setLayout(contentPaneLayout);
-        contentPaneLayout.setHorizontalGroup(
+        contentPaneLayout.setHorizontalGroup()
                 contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
                                 .addGroup(contentPaneLayout.createParallelGroup()
                                         .addGroup(contentPaneLayout.createSequentialGroup()
+                                                .addGap(31, 31, 31)
+
 
 
 
