@@ -1,3 +1,5 @@
 package admin;
-public class AddItem {
+
+
+public class AddItem extends javax.swing.JFrame {
 }
