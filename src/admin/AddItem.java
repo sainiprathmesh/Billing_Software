@@ -103,6 +103,8 @@ class AddItem extends javax.swing.JFrame {
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
 
         contentPane.setLayout(contentPaneLayout);
+        contentPaneLayout.setHorizontalGroup(
+
 
 
 
