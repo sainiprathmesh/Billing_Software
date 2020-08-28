@@ -82,6 +82,7 @@ class AddItem extends javax.swing.JFrame {
         //---- jLabel6 ----
         jLabel6.setText("Description :");
         //======== jScrollPane1 ========
+        {
 
 
 
@@ -93,7 +94,9 @@ class AddItem extends javax.swing.JFrame {
 
 
 
-    }
+
+
+        }
 
 
 
