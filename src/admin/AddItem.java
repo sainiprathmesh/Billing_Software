@@ -106,6 +106,8 @@ class AddItem extends javax.swing.JFrame {
         contentPaneLayout.setHorizontalGroup(
                 contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
+                                .addGroup(contentPaneLayout.createParallelGroup()
+
 
 
 
