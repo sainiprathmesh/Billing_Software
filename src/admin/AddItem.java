@@ -37,6 +37,8 @@ class AddItem extends javax.swing.JFrame {
         jButton1 = new JButton();
         jLabel8 = new JLabel();
         jButton2 = new JButton();
+        //======== this ========
+
 
 
 
