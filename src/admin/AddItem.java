@@ -51,6 +51,8 @@ class AddItem extends javax.swing.JFrame {
         var contentPane = getContentPane();
         //---- jLabel1 ----
         jLabel1.setBackground(Color.white);
+        jLabel1.setFont(new Font("Tahoma", Font.BOLD, 18));
+
 
 
 
