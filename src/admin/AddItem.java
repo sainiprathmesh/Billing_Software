@@ -66,6 +66,8 @@ class AddItem extends javax.swing.JFrame {
         jLabel2.setText("ID :");
 
         jTextField1.setEditable(false);
+        jLabel3.setText("Name :");
+
 
 
 
