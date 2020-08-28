@@ -22,7 +22,9 @@ class AddItem extends javax.swing.JFrame {
     // Generated using JFormDesigner Evaluation license - unknown
     private void initComponents() {
         jLabel1 = new JLabel();
-        }
+        jLabel2 = new JLabel();
+
+    }
 
     }
 
