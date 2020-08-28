@@ -84,6 +84,8 @@ class AddItem extends javax.swing.JFrame {
         //======== jScrollPane1 ========
         {
             //---- jTextArea1 ----
+            jTextArea1.setColumns(20);
+
 
 
 
