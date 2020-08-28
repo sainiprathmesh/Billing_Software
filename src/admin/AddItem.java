@@ -3,6 +3,8 @@ package admin;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
@@ -55,6 +57,13 @@ class AddItem extends javax.swing.JFrame {
         jLabel1.setForeground(new Color(255, 0, 51));
         jLabel1.setText("Back");
         jLabel1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        jLabel1.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                jLabel1MouseClicked(e);
+            }
+        });
+
 
 
 
