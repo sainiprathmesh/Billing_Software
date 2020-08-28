@@ -74,6 +74,10 @@ class AddItem extends javax.swing.JFrame {
         jLabel5.setText("Categoty :");
 
         jComboBox1.setModel(new DefaultComboBoxModel<>(new String[] {
+                "Select Category",
+
+
+        }
 
 
 
