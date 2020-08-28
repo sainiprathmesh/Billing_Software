@@ -38,6 +38,9 @@ class AddItem extends javax.swing.JFrame {
         jLabel8 = new JLabel();
         jButton2 = new JButton();
         //======== this ========
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
+
 
 
 
