@@ -93,7 +93,7 @@ class AddItem extends javax.swing.JFrame {
         jLabel7.setText("Select Image :");
         //---- jButton1 ----
 
-        jButton1.setText("Select Image");
+        jButton1.addActionListener(e -> jButton1ActionPerformed(e));
 
 
 
