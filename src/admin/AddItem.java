@@ -2,6 +2,7 @@ package admin;
 
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
@@ -49,6 +50,8 @@ class AddItem extends javax.swing.JFrame {
         });
         var contentPane = getContentPane();
         //---- jLabel1 ----
+        jLabel1.setBackground(Color.white);
+
 
 
 
