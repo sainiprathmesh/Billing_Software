@@ -48,6 +48,7 @@ class AddItem extends javax.swing.JFrame {
             }
         });
         var contentPane = getContentPane();
+        //---- jLabel1 ----
 
 
 
