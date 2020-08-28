@@ -95,6 +95,9 @@ class AddItem extends javax.swing.JFrame {
 
         jButton1.addActionListener(e -> jButton1ActionPerformed(e));
 
+        //---- jButton2 ----
+
+
 
 
 
