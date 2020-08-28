@@ -2,6 +2,8 @@ package admin;
 
 
 import javax.swing.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.File;
 
 class AddItem extends javax.swing.JFrame {
@@ -39,6 +41,14 @@ class AddItem extends javax.swing.JFrame {
         jButton2 = new JButton();
         //======== this ========
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowOpened(WindowEvent e) {
+                formWindowOpened(e);
+            }
+        });
+
+
 
 
 
