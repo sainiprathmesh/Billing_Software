@@ -164,6 +164,7 @@ class AddItem extends javax.swing.JFrame {
                                                         .addComponent(jTextField2, GroupLayout.PREFERRED_SIZE, 44, GroupLayout.PREFERRED_SIZE))
                                                 .addGap(37, 37, 37)
                                                 .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                                        .addComponent(jTextField3, GroupLayout.PREFERRED_SIZE, 54, GroupLayout.PREFERRED_SIZE)
 
 
 
