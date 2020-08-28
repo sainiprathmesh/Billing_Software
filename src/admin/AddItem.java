@@ -30,6 +30,7 @@ class AddItem extends javax.swing.JFrame {
         jTextField3 = new JTextField();
         jLabel5 = new JLabel();
         jComboBox1 = new JComboBox<>();
+        jLabel6 = new JLabel();
 
 
 
