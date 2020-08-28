@@ -8,5 +8,5 @@ package admin;
 
 
 
-public class AddItem extends javax.swing.JFrame {
+class AddItem extends javax.swing.JFrame {
 }
