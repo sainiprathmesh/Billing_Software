@@ -77,6 +77,8 @@ class AddItem extends javax.swing.JFrame {
                 "Select Category",
                 "Clothes",
                 "Grossery",
+                "Toys"
+
 
 
 
