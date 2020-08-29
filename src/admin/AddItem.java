@@ -336,7 +336,8 @@ class AddItem extends javax.swing.JFrame {
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // Generated using JFormDesigner Evaluation license - unknown
-    private JLabel jLabel1;
+
+
 
 
 
