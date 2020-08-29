@@ -35,6 +35,22 @@ class AddItem extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     // Generated using JFormDesigner Evaluation license - unknown
     private void initComponents() {
+        private JLabel jLabel1;
+        private JLabel jLabel2;
+        private JTextField jTextField1;
+        private JLabel jLabel3;
+        private JTextField jTextField2;
+        private JLabel jLabel4;
+        private JTextField jTextField3;
+        private JLabel jLabel5;
+        private JComboBox<String> jComboBox1;
+        private JLabel jLabel6;
+        private JScrollPane jScrollPane1;
+        private JTextArea jTextArea1;
+        private JLabel jLabel7;
+        private JButton jButton1;
+        private JLabel jLabel8;
+        private JButton jButton2;
         jLabel1 = new JLabel();
         jLabel2 = new JLabel();
         jTextField1 = new JTextField();
