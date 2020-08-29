@@ -232,6 +232,8 @@ class AddItem extends javax.swing.JFrame {
 
             }
             con.close();
+        }
+
 
 
 
