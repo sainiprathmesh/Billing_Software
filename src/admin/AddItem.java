@@ -267,6 +267,7 @@ class AddItem extends javax.swing.JFrame {
         file=filechooser.getSelectedFile();
 
         BufferedImage img = null;
+        try
 
 
 
