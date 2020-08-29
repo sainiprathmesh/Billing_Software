@@ -283,7 +283,9 @@ class AddItem extends javax.swing.JFrame {
         //jLabel8.setIcon(new javax.swing.ImageIcon(file.getAbsolutePath()));
 
     }//GEN-LAST:event_jButton1ActionPerformed
-
+    /**
+     * @param args the command line arguments
+     */
 
 
 
