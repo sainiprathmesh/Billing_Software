@@ -173,6 +173,7 @@ class AddItem extends javax.swing.JFrame {
                                                         .addComponent(jComboBox1, GroupLayout.PREFERRED_SIZE, 41, GroupLayout.PREFERRED_SIZE))
                                                 .addGroup(contentPaneLayout.createParallelGroup()
                                                         .addGroup(contentPaneLayout.createSequentialGroup()
+                                                                .addGap(56, 56, 56)
 
 
 
