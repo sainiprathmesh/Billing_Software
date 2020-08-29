@@ -278,6 +278,7 @@ class AddItem extends javax.swing.JFrame {
         }
         Image dimg = img.getScaledInstance(jLabel8.getWidth(), jLabel8.getHeight(), Image.SCALE_SMOOTH);
         ImageIcon ii=new ImageIcon(dimg);
+        jLabel8.setIcon(ii);
 
 
 
