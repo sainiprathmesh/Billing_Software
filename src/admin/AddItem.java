@@ -9,6 +9,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.io.FileInputStream;
+import java.sql.Connection;
 
 class AddItem extends javax.swing.JFrame {
 
@@ -206,6 +207,7 @@ class AddItem extends javax.swing.JFrame {
         {
             File imgfile = new File(file.getAbsolutePath());
             FileInputStream fis = new FileInputStream(imgfile);
+            Connection con=dbconnection.DbConnection.getConnect();
 
 
 
