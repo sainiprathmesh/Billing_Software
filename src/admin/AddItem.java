@@ -226,6 +226,7 @@ class AddItem extends javax.swing.JFrame {
                 ai.setVisible(true);
                 setVisible(false);
             }
+            else
 
 
 
