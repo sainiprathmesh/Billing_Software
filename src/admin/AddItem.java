@@ -244,6 +244,7 @@ class AddItem extends javax.swing.JFrame {
         try
         {
             Connection con=dbconnection.DbConnection.getConnect();
+            PreparedStatement ps=con.prepareStatement("select * from items");
 
 
 
