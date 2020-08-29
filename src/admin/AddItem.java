@@ -248,6 +248,7 @@ class AddItem extends javax.swing.JFrame {
             PreparedStatement ps=con.prepareStatement("select * from items");
             ResultSet rs=ps.executeQuery();
             while(rs.next())
+            {
 
 
 
