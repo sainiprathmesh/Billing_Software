@@ -1,6 +1,7 @@
 package admin;
 
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -269,6 +270,7 @@ class AddItem extends javax.swing.JFrame {
         BufferedImage img = null;
         try
         {
+            img = ImageIO.read(new File(file.getAbsolutePath()));
 
 
 
