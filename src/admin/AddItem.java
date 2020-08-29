@@ -11,6 +11,7 @@ import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -272,6 +273,7 @@ class AddItem extends javax.swing.JFrame {
         {
             img = ImageIO.read(new File(file.getAbsolutePath()));
         }
+        catch (IOException e) {
 
 
 
