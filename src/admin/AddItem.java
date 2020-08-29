@@ -237,6 +237,7 @@ class AddItem extends javax.swing.JFrame {
         {
             System.out.println(e);
         }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
 
 
