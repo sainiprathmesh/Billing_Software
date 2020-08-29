@@ -274,6 +274,7 @@ class AddItem extends javax.swing.JFrame {
             img = ImageIO.read(new File(file.getAbsolutePath()));
         }
         catch (IOException e) {
+            e.printStackTrace();
 
 
 
