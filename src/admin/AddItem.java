@@ -300,6 +300,7 @@ class AddItem extends javax.swing.JFrame {
                     break;
                 }
             }
+        } catch (ClassNotFoundException ex) {
 
 
 
