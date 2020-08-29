@@ -275,6 +275,7 @@ class AddItem extends javax.swing.JFrame {
         }
         catch (IOException e) {
             e.printStackTrace();
+        }
 
 
 
