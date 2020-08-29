@@ -175,6 +175,7 @@ class AddItem extends javax.swing.JFrame {
                                                         .addGroup(contentPaneLayout.createSequentialGroup()
                                                                 .addGap(56, 56, 56)
                                                                 .addComponent(jLabel6))
+                                                        .addGroup(contentPaneLayout.createSequentialGroup()
 
 
 
