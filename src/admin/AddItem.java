@@ -182,6 +182,7 @@ class AddItem extends javax.swing.JFrame {
                                                 .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
                                                 .addComponent(jButton1)
                                                 .addGap(49, 49, 49)
+                                                .addComponent(jLabel8, GroupLayout.PREFERRED_SIZE, 138, GroupLayout.PREFERRED_SIZE)))
 
 
 
