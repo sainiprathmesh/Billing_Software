@@ -203,6 +203,7 @@ class AddItem extends javax.swing.JFrame {
         String desc=jTextArea1.getText();
         try
         {
+            File imgfile = new File(file.getAbsolutePath());
 
 
 
