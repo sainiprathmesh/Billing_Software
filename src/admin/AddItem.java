@@ -198,6 +198,7 @@ class AddItem extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         String id=jTextField1.getText();
         String name=jTextField2.getText();
+        String price=jTextField3.getText();
 
 
 
