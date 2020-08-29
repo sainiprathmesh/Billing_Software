@@ -212,6 +212,7 @@ class AddItem extends javax.swing.JFrame {
             PreparedStatement ps=con.prepareStatement("insert into items values(?,?,?,?,?,?)");
             ps.setString(1, id);
             ps.setString(2, name);
+            ps.setString(2, name);
 
 
 
