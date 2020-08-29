@@ -194,6 +194,7 @@ class AddItem extends javax.swing.JFrame {
         AdminPanel ap=new AdminPanel();
         ap.setVisible(true);
         setVisible(false);
+    }//GEN-LAST:event_jLabel1MouseClicked
 
 
 
