@@ -280,6 +280,7 @@ class AddItem extends javax.swing.JFrame {
         ImageIcon ii=new ImageIcon(dimg);
         jLabel8.setIcon(ii);
 
+        //jLabel8.setIcon(new javax.swing.ImageIcon(file.getAbsolutePath()));
 
 
 
