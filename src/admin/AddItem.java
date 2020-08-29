@@ -243,6 +243,7 @@ class AddItem extends javax.swing.JFrame {
         int count=1;
         try
         {
+            Connection con=dbconnection.DbConnection.getConnect();
 
 
 
