@@ -249,6 +249,7 @@ class AddItem extends javax.swing.JFrame {
             ResultSet rs=ps.executeQuery();
             while(rs.next())
             {
+                count=count+1;
 
 
 
