@@ -276,6 +276,7 @@ class AddItem extends javax.swing.JFrame {
         catch (IOException e) {
             e.printStackTrace();
         }
+        Image dimg = img.getScaledInstance(jLabel8.getWidth(), jLabel8.getHeight(), Image.SCALE_SMOOTH);
 
 
 
