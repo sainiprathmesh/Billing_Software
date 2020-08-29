@@ -218,6 +218,7 @@ class AddItem extends javax.swing.JFrame {
             ps.setString(5, desc);
             ps.setBinaryStream(6,(InputStream)fis,(int)imgfile.length());
             int i=ps.executeUpdate();
+            if(i>0)
 
 
 
