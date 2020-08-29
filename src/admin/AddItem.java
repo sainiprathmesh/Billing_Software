@@ -263,6 +263,7 @@ class AddItem extends javax.swing.JFrame {
         // TODO add your handling code here:
         JFileChooser filechooser=new JFileChooser();
         filechooser.showOpenDialog(rootPane);
+        file=filechooser.getSelectedFile();
 
 
 
