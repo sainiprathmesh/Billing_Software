@@ -241,6 +241,7 @@ class AddItem extends javax.swing.JFrame {
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // TODO add your handling code here:
         int count=1;
+        try
 
 
 
