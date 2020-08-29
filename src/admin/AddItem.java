@@ -214,7 +214,7 @@ class AddItem extends javax.swing.JFrame {
             ps.setString(2, name);
             ps.setString(2, name);
             ps.setString(4, category);
-
+            ps.setString(5, desc);
 
 
 
