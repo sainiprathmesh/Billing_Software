@@ -221,6 +221,7 @@ class AddItem extends javax.swing.JFrame {
             if(i>0)
             {
                 JOptionPane.showMessageDialog(rootPane, "Item added successfully");
+                AddItem ai=new AddItem();
 
 
 
