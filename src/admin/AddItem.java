@@ -268,6 +268,7 @@ class AddItem extends javax.swing.JFrame {
 
         BufferedImage img = null;
         try
+        {
 
 
 
