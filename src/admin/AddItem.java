@@ -315,6 +315,7 @@ class AddItem extends javax.swing.JFrame {
             public void run() {
                 new AddItem().setVisible(true);
             }
+        });
 
 
 
