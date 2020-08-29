@@ -200,6 +200,7 @@ class AddItem extends javax.swing.JFrame {
         String name=jTextField2.getText();
         String price=jTextField3.getText();
         String category=(String)jComboBox1.getSelectedItem();
+        String desc=jTextArea1.getText();
 
 
 
