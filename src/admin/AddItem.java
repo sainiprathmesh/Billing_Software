@@ -192,6 +192,7 @@ class AddItem extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
         AdminPanel ap=new AdminPanel();
+        ap.setVisible(true);
 
 
 
