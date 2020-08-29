@@ -250,6 +250,7 @@ class AddItem extends javax.swing.JFrame {
             while(rs.next())
             {
                 count=count+1;
+            }
 
 
 
