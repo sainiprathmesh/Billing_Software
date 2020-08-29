@@ -252,6 +252,7 @@ class AddItem extends javax.swing.JFrame {
                 count=count+1;
             }
             jTextField1.setText("itm/bt1/"+count);
+            con.close();
 
 
 
