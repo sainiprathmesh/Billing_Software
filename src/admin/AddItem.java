@@ -211,6 +211,7 @@ class AddItem extends javax.swing.JFrame {
             Connection con=dbconnection.DbConnection.getConnect();
             PreparedStatement ps=con.prepareStatement("insert into items values(?,?,?,?,?,?)");
             ps.setString(1, id);
+            ps.setString(2, name);
 
 
 
