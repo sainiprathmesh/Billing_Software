@@ -7,6 +7,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -265,6 +266,7 @@ class AddItem extends javax.swing.JFrame {
         filechooser.showOpenDialog(rootPane);
         file=filechooser.getSelectedFile();
 
+        BufferedImage img = null;
 
 
 
