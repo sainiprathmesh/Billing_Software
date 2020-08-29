@@ -259,6 +259,7 @@ class AddItem extends javax.swing.JFrame {
             System.out.println(e);
         }
     }//GEN-LAST:event_formWindowOpened
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
 
 
