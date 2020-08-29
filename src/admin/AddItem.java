@@ -12,6 +12,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 class AddItem extends javax.swing.JFrame {
 
@@ -245,6 +246,7 @@ class AddItem extends javax.swing.JFrame {
         {
             Connection con=dbconnection.DbConnection.getConnect();
             PreparedStatement ps=con.prepareStatement("select * from items");
+            ResultSet rs=ps.executeQuery();
 
 
 
