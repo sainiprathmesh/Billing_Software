@@ -242,6 +242,7 @@ class AddItem extends javax.swing.JFrame {
         // TODO add your handling code here:
         int count=1;
         try
+        {
 
 
 
