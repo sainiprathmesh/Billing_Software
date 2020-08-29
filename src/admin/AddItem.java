@@ -9,6 +9,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
@@ -215,7 +216,7 @@ class AddItem extends javax.swing.JFrame {
             ps.setString(2, name);
             ps.setString(4, category);
             ps.setString(5, desc);
-
+            ps.setBinaryStream(6,(InputStream)fis,(int)imgfile.length());
 
 
 
