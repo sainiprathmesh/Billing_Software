@@ -299,6 +299,7 @@ class AddItem extends javax.swing.JFrame {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
+            }
 
 
 
