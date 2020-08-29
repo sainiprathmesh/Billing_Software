@@ -188,6 +188,7 @@ class AddItem extends javax.swing.JFrame {
                                 .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pack();
+        setLocationRelativeTo(null);
 
 
 
