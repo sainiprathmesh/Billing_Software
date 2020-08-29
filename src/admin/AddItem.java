@@ -220,6 +220,7 @@ class AddItem extends javax.swing.JFrame {
             int i=ps.executeUpdate();
             if(i>0)
             {
+                JOptionPane.showMessageDialog(rootPane, "Item added successfully");
 
 
 
