@@ -227,6 +227,10 @@ class AddItem extends javax.swing.JFrame {
                 setVisible(false);
             }
             else
+            {
+                JOptionPane.showMessageDialog(rootPane, "item not added due to some error", "Error", JOptionPane.ERROR_MESSAGE);
+
+            }
 
 
 
