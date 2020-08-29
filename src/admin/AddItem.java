@@ -187,6 +187,8 @@ class AddItem extends javax.swing.JFrame {
                                 .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 40, GroupLayout.PREFERRED_SIZE)
                                 .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
+        pack();
+
 
 
 
