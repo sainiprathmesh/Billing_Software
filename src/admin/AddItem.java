@@ -8,6 +8,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
+import java.io.FileInputStream;
 
 class AddItem extends javax.swing.JFrame {
 
@@ -204,6 +205,7 @@ class AddItem extends javax.swing.JFrame {
         try
         {
             File imgfile = new File(file.getAbsolutePath());
+            FileInputStream fis = new FileInputStream(imgfile);
 
 
 
