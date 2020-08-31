@@ -37,5 +37,6 @@ public class EditItem {
     private JLabel jLabel1;
     private JLabel jLabel2;
     private JLabel jLabel3;
+    private JLabel jLabel4;
 
 }
