@@ -145,6 +145,6 @@ public class EditEmployee extends javax.swing.JFrame {
                                 .addContainerGap(101, Short.MAX_VALUE))
         );
         pack();
-
+        setLocationRelativeTo(null);
     }
 }
