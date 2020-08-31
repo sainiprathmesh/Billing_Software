@@ -191,7 +191,7 @@ public class EditEmployee extends javax.swing.JFrame {
         String name = null, pass = null, phno = null;
         try
         {
-
+            Connection con=dbconnection.DbConnection.getConnect();
         }
         catch(Exception e)
         {
