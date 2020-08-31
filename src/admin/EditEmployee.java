@@ -167,6 +167,7 @@ public class EditEmployee extends javax.swing.JFrame {
             PreparedStatement ps=con.prepareStatement("select * from register");
             ResultSet rs=ps.executeQuery();
 
+            con.close();
         }
         catch(Exception e)
         {
