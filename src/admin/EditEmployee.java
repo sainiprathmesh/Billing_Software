@@ -227,6 +227,7 @@ public class EditEmployee extends javax.swing.JFrame {
             int i=ps.executeUpdate();
             if(i>0)
             {
+                JOptionPane.showMessageDialog(rootPane, "Updation completed successfully");
 
             }
             else
