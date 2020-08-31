@@ -204,7 +204,7 @@ public class EditEmployee extends javax.swing.JFrame {
 
             jTextField1.setText(name);
             jTextField2.setText(pass);
-
+            jTextField3.setText(phno);
 
             con.close();
         }
