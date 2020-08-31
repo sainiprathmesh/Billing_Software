@@ -120,6 +120,7 @@ public class EditEmployee extends javax.swing.JFrame {
                 contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
                                 .addGap(26, 26, 26)
+                                .addComponent(jLabel1)
 
         );
     }
