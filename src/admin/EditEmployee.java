@@ -21,6 +21,6 @@ public class EditEmployee extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
 
     private void initComponents(){
-
+        jLabel1 = new JLabel();
     }
 }
