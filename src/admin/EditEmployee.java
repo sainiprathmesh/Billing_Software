@@ -67,6 +67,7 @@ public class EditEmployee extends javax.swing.JFrame {
                     return columnEditable[columnIndex];
                 }
             });
+            jTable1.addMouseListener();
         }
     }
 }
