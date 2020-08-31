@@ -158,6 +158,7 @@ public class EditEmployee extends javax.swing.JFrame {
 
         DefaultTableModel dtm=(DefaultTableModel)jTable1.getModel();
 
+        int srno=0;
 
 
     }
