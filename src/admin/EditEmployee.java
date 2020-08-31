@@ -219,6 +219,13 @@ public class EditEmployee extends javax.swing.JFrame {
         String pass1=jTextField2.getText();
         String phno1=jTextField3.getText();
 
+        try
+        {
 
+        }
+        catch(Exception e)
+        {
+
+        }
     }
 }
