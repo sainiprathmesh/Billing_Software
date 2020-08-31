@@ -253,7 +253,14 @@ public class EditEmployee extends javax.swing.JFrame {
 
             PreparedStatement ps=con.prepareStatement("delete from register where email='"+email+"'");
             int i=ps.executeUpdate();
+            if(i>0)
+            {
 
+            }
+            else
+            {
+
+            }
 
             con.close();
         }
