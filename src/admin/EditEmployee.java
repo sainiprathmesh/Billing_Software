@@ -30,5 +30,6 @@ public class EditEmployee extends javax.swing.JFrame {
         jButton1 = new JButton();
         jButton2 = new JButton();
         jLabel2 = new JLabel();
+        jLabel3 = new JLabel();
     }
 }
