@@ -18,7 +18,7 @@ import javax.swing.GroupLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
-
+import javax.swing.LayoutStyle;
 
 public class EditItem {
     public static void main(String args[]) {
