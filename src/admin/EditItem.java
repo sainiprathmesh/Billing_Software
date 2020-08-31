@@ -31,5 +31,6 @@ public class EditItem {
     private JTable jTable1;
     private JTextField jTextField1;
     private JTextField jTextField2;
+    private JComboBox<String> jComboBox1;
 
 }
