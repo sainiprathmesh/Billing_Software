@@ -41,5 +41,6 @@ public class EditItem {
     private JLabel jLabel5;
     private JLabel jLabel6;
     private JButton jButton1;
+    private JButton jButton2;
 
 }
