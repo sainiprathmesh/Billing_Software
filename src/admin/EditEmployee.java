@@ -224,6 +224,8 @@ public class EditEmployee extends javax.swing.JFrame {
             Connection con=dbconnection.DbConnection.getConnect();
 
 
+
+            con.close();
         }
         catch(Exception e)
         {
