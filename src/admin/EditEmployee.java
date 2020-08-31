@@ -253,7 +253,7 @@ public class EditEmployee extends javax.swing.JFrame {
         }
         catch(Exception e)
         {
-
+            System.out.println(e);
         }
     }
 }
