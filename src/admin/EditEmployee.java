@@ -144,5 +144,7 @@ public class EditEmployee extends javax.swing.JFrame {
                                                 .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 43, GroupLayout.PREFERRED_SIZE)))
                                 .addContainerGap(101, Short.MAX_VALUE))
         );
+        pack();
+
     }
 }
