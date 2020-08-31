@@ -246,7 +246,7 @@ public class EditEmployee extends javax.swing.JFrame {
 
     }
 
-    private void jButton2ActionPerformed() {
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 
 
     }
