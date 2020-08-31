@@ -70,7 +70,7 @@ public class EditEmployee extends javax.swing.JFrame {
             jTable1.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
-
+                    jTable1MouseClicked(e);
                 }
             });
         }
