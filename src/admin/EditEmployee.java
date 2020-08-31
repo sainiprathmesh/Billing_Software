@@ -62,7 +62,10 @@ public class EditEmployee extends javax.swing.JFrame {
                 boolean[] columnEditable = new boolean[] {
                         false, false, false
                 };
-
+                @Override
+                public boolean isCellEditable(int rowIndex, int columnIndex) {
+                    return columnEditable[columnIndex];
+                }
             });
         }
     }
