@@ -164,7 +164,7 @@ public class EditEmployee extends javax.swing.JFrame {
         try
         {
             Connection con=dbconnection.DbConnection.getConnect();
-            PreparedStatement ps=con.prepareStatement();
+            PreparedStatement ps=con.prepareStatement("select * from register");
 
         }
         catch(Exception e)
