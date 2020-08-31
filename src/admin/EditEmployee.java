@@ -214,7 +214,7 @@ public class EditEmployee extends javax.swing.JFrame {
         }
     }
 
-    private void jButton1ActionPerformed() {
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 
     }
 }
