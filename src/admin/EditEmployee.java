@@ -14,4 +14,7 @@ public class EditEmployee extends javax.swing.JFrame {
 
     String email;
 
+    public EditEmployee() {
+
+    }
 }
