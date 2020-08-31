@@ -153,4 +153,9 @@ public class EditEmployee extends javax.swing.JFrame {
         ap.setVisible(true);
         setVisible(false);
     }
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {
+
+
+    }
 }
