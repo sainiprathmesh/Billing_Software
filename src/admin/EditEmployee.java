@@ -113,7 +113,7 @@ public class EditEmployee extends javax.swing.JFrame {
                                                                         .addComponent(jButton2, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                                                         .addComponent(jButton1, GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE))
                                                                 .addGap(89, 89, 89)))))
-                                )
+                                .addContainerGap(122, Short.MAX_VALUE))
         );
     }
 }
