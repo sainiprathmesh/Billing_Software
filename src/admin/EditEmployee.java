@@ -87,7 +87,33 @@ public class EditEmployee extends javax.swing.JFrame {
         contentPane.setLayout(contentPaneLayout);
         contentPaneLayout.setHorizontalGroup(
                 contentPaneLayout.createParallelGroup()
-
+                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                .addGroup(contentPaneLayout.createParallelGroup()
+                                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                                .addGap(22, 22, 22)
+                                                .addComponent(jLabel1))
+                                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                                .addGap(54, 54, 54)
+                                                .addComponent(jScrollPane1, GroupLayout.PREFERRED_SIZE, 361, GroupLayout.PREFERRED_SIZE)
+                                                .addGroup(contentPaneLayout.createParallelGroup()
+                                                        .addGroup(contentPaneLayout.createSequentialGroup()
+                                                                .addGap(92, 92, 92)
+                                                                .addGroup(contentPaneLayout.createParallelGroup()
+                                                                        .addComponent(jLabel2)
+                                                                        .addComponent(jLabel3)
+                                                                        .addComponent(jLabel4))
+                                                                .addGap(78, 78, 78)
+                                                                .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
+                                                                        .addComponent(jTextField1)
+                                                                        .addComponent(jTextField2)
+                                                                        .addComponent(jTextField3, GroupLayout.DEFAULT_SIZE, 326, Short.MAX_VALUE)))
+                                                        .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
+                                                                .addGap(111, 111, 111)
+                                                                .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.TRAILING, false)
+                                                                        .addComponent(jButton2, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                                        .addComponent(jButton1, GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE))
+                                                                .addGap(89, 89, 89)))))
+                                )
         );
     }
 }
