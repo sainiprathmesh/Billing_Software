@@ -202,6 +202,8 @@ public class EditEmployee extends javax.swing.JFrame {
                 phno=rs.getString("phone_no");
             }
 
+            jTextField1.setText(name);
+
 
             con.close();
         }
