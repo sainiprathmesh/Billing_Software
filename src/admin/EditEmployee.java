@@ -223,6 +223,7 @@ public class EditEmployee extends javax.swing.JFrame {
         {
             Connection con=dbconnection.DbConnection.getConnect();
 
+            PreparedStatement ps=con.prepareStatement();
 
 
             con.close();
