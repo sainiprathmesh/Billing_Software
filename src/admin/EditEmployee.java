@@ -36,7 +36,7 @@ public class EditEmployee extends javax.swing.JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new WindowAdapter() {
             @Override
-            public void windowOpened() {
+            public void windowOpened(WindowEvent e) {
             }
         });
     }
