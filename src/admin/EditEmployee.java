@@ -116,6 +116,9 @@ public class EditEmployee extends javax.swing.JFrame {
                                 .addContainerGap(122, Short.MAX_VALUE))
         );
 
-        contentPaneLayout.setVerticalGroup();
+        contentPaneLayout.setVerticalGroup(
+                contentPaneLayout.createParallelGroup()
+
+        );
     }
 }
