@@ -58,7 +58,12 @@ public class EditEmployee extends javax.swing.JFrame {
                     new String[] {
                             "Sr. No", "Name", "Email"
                     }
-            ) );
+            ) {
+                boolean[] columnEditable = new boolean[] {
+                        false, false, false
+                };
+
+            });
         }
     }
 }
