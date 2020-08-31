@@ -272,4 +272,9 @@ public class EditEmployee extends javax.swing.JFrame {
             System.out.println(e);
         }
     }
+
+    public static void main(String args[]) {
+
+
+    }
 }
