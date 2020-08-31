@@ -36,5 +36,6 @@ public class EditItem {
     private JTextArea jTextArea1;
     private JLabel jLabel1;
     private JLabel jLabel2;
+    private JLabel jLabel3;
 
 }
