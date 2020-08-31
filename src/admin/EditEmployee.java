@@ -75,5 +75,7 @@ public class EditEmployee extends javax.swing.JFrame {
             });
             jScrollPane1.setViewportView(jTable1);
         }
+        jButton1.setText("Update");
+
     }
 }
