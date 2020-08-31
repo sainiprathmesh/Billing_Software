@@ -225,7 +225,14 @@ public class EditEmployee extends javax.swing.JFrame {
 
             PreparedStatement ps=con.prepareStatement("update register set name='"+name1+"', password='"+pass1+"', phone_no='"+phno1+"' where email='"+email+"'");
             int i=ps.executeUpdate();
+            if(i>0)
+            {
 
+            }
+            else
+            {
+
+            }
 
             con.close();
         }
