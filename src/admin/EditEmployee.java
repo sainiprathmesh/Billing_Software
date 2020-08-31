@@ -45,5 +45,6 @@ public class EditEmployee extends javax.swing.JFrame {
         jLabel1.setForeground(new Color(255, 0, 51));
         jLabel1.setText("Back");
         jLabel1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        jLabel1.addMouseListener();
     }
 }
