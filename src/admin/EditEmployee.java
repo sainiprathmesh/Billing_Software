@@ -300,5 +300,6 @@ public class EditEmployee extends javax.swing.JFrame {
     }
 
     private JLabel jLabel1;
+    private JScrollPane jScrollPane1;
 
 }
