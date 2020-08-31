@@ -231,7 +231,7 @@ public class EditEmployee extends javax.swing.JFrame {
             }
             else
             {
-
+                JOptionPane.showMessageDialog(rootPane, "Not updated due to some error", "Error", JOptionPane.ERROR_MESSAGE);
             }
 
             con.close();
