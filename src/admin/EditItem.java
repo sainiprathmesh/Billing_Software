@@ -27,5 +27,6 @@ public class EditItem {
             }
         });
     }
+    private JScrollPane jScrollPane1;
 
 }
