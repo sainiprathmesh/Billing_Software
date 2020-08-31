@@ -35,5 +35,6 @@ public class EditItem {
     private JScrollPane jScrollPane2;
     private JTextArea jTextArea1;
     private JLabel jLabel1;
+    private JLabel jLabel2;
 
 }
