@@ -18,6 +18,8 @@ public class EditEmployee extends javax.swing.JFrame {
         initComponents();
     }
 
+    @SuppressWarnings("unchecked")
+
     private void initComponents(){
 
     }
