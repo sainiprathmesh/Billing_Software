@@ -32,5 +32,7 @@ public class EditEmployee extends javax.swing.JFrame {
         jLabel2 = new JLabel();
         jLabel3 = new JLabel();
         jLabel4 = new JLabel();
+
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }
