@@ -17,4 +17,8 @@ public class EditEmployee extends javax.swing.JFrame {
     public EditEmployee() {
 
     }
+
+    private void initComponents(){
+
+    }
 }
