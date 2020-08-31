@@ -223,7 +223,7 @@ public class EditEmployee extends javax.swing.JFrame {
         {
             Connection con=dbconnection.DbConnection.getConnect();
 
-            PreparedStatement ps=con.prepareStatement();
+            PreparedStatement ps=con.prepareStatement("update register set name='"+name1+"', password='"+pass1+"', phone_no='"+phno1+"' where email='"+email+"'");
 
 
             con.close();
