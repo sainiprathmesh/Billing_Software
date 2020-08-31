@@ -216,6 +216,7 @@ public class EditEmployee extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         String name1=jTextField1.getText();
+        String pass1=jTextField2.getText();
 
     }
 }
