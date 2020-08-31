@@ -52,7 +52,13 @@ public class EditEmployee extends javax.swing.JFrame {
             }
         });
         {
-            jTable1.setModel(new DefaultTableModel() );
+            jTable1.setModel(new DefaultTableModel(
+                    new Object[][] {
+                    },
+                    new String[] {
+                            "Sr. No", "Name", "Email"
+                    }
+            ) );
         }
     }
 }
