@@ -197,7 +197,9 @@ public class EditEmployee extends javax.swing.JFrame {
             ResultSet rs=ps.executeQuery();
             while(rs.next())
             {
-
+                name=rs.getString("name");
+                pass=rs.getString("password");
+                phno=rs.getString("phone_no");
             }
 
 
