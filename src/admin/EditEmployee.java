@@ -183,7 +183,7 @@ public class EditEmployee extends javax.swing.JFrame {
         }
     }
 
-    private void jTable1MouseClicked() {
+    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {
 
 
     }
