@@ -186,6 +186,8 @@ public class EditEmployee extends javax.swing.JFrame {
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {
 
         int row=jTable1.getSelectedRow();
+        email=(String)jTable1.getValueAt(row, 2);
+
 
     }
 }
