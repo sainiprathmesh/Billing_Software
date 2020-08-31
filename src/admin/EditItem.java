@@ -13,6 +13,8 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import javax.imageio.ImageIO;
+
 
 public class EditItem {
     public static void main(String args[]) {
