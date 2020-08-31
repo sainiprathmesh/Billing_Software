@@ -119,6 +119,7 @@ public class EditEmployee extends javax.swing.JFrame {
         contentPaneLayout.setVerticalGroup(
                 contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
+                                .addGap(26, 26, 26)
 
         );
     }
