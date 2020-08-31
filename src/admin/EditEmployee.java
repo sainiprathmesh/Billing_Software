@@ -34,6 +34,10 @@ public class EditEmployee extends javax.swing.JFrame {
         jLabel4 = new JLabel();
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        addWindowListener(new WindowAdapter());
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowOpened() {
+            }
+        });
     }
 }
