@@ -256,6 +256,7 @@ public class EditEmployee extends javax.swing.JFrame {
             if(i>0)
             {
                 JOptionPane.showMessageDialog(rootPane, "Deletion completed successfully");
+                EditEmployee ee=new EditEmployee();
 
             }
             else
