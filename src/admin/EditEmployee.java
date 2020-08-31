@@ -181,6 +181,10 @@ public class EditEmployee extends javax.swing.JFrame {
         {
             System.out.println(e);
         }
+    }
+
+    private void jTable1MouseClicked() {
+
 
     }
 }
