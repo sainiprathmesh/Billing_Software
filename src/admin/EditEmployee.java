@@ -12,4 +12,6 @@ import javax.swing.table.DefaultTableModel;
 
 public class EditEmployee extends javax.swing.JFrame {
 
+    String email;
+
 }
