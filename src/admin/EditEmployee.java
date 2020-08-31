@@ -156,6 +156,9 @@ public class EditEmployee extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {
 
+        DefaultTableModel dtm;
+
+
 
     }
 }
