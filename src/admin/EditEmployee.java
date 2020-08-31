@@ -259,7 +259,7 @@ public class EditEmployee extends javax.swing.JFrame {
             }
             else
             {
-
+                JOptionPane.showMessageDialog(rootPane, "Not deleeted due to some error", "Error", JOptionPane.ERROR_MESSAGE);
             }
 
             con.close();
