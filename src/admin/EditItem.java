@@ -16,7 +16,7 @@ import java.sql.ResultSet;
 import javax.imageio.ImageIO;
 import javax.swing.GroupLayout;
 import javax.swing.ImageIcon;
-
+import javax.swing.JFileChooser;
 
 public class EditItem {
     public static void main(String args[]) {
