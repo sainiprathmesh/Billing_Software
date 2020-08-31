@@ -213,4 +213,8 @@ public class EditEmployee extends javax.swing.JFrame {
             System.out.println(e);
         }
     }
+
+    private void jButton1ActionPerformed() {
+
+    }
 }
