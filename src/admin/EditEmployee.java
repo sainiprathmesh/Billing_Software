@@ -229,6 +229,7 @@ public class EditEmployee extends javax.swing.JFrame {
             {
                 JOptionPane.showMessageDialog(rootPane, "Updation completed successfully");
                 EditEmployee ee=new EditEmployee();
+                ee.setVisible(true);
 
             }
             else
