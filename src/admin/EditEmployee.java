@@ -203,6 +203,7 @@ public class EditEmployee extends javax.swing.JFrame {
             }
 
             jTextField1.setText(name);
+            jTextField2.setText(pass);
 
 
             con.close();
