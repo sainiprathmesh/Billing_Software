@@ -21,7 +21,7 @@ import javax.swing.JOptionPane;
 import javax.swing.LayoutStyle;
 import javax.swing.table.DefaultTableModel;
 
-public class EditItem {
+public class EditItem extends javax.swing.JFrame {
     public static void main(String args[]) {
 
         try {
