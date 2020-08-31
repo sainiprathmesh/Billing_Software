@@ -51,5 +51,8 @@ public class EditEmployee extends javax.swing.JFrame {
                 jLabel1MouseClicked(e);
             }
         });
+        {
+            jTable1.setModel();
+        }
     }
 }
