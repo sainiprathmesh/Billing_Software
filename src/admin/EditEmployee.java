@@ -147,4 +147,8 @@ public class EditEmployee extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }
+
+    private void jLabel1MouseClicked() {
+
+    }
 }
