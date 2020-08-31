@@ -195,6 +195,10 @@ public class EditEmployee extends javax.swing.JFrame {
 
             PreparedStatement ps=con.prepareStatement("select * from register where email='"+email+"'");
             ResultSet rs=ps.executeQuery();
+            while(rs.next())
+            {
+
+            }
 
 
             con.close();
