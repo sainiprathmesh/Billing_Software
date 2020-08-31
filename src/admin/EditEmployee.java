@@ -9,6 +9,7 @@ import javax.swing.*;
 import javax.swing.GroupLayout;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-public class EditEmployee {
+
+public class EditEmployee extends javax.swing.JFrame {
 
 }
