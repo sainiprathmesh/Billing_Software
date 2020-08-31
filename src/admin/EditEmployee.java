@@ -15,7 +15,7 @@ public class EditEmployee extends javax.swing.JFrame {
     String email;
 
     public EditEmployee() {
-
+        initComponents();
     }
 
     private void initComponents(){
