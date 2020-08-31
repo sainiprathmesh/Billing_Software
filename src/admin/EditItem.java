@@ -19,6 +19,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.LayoutStyle;
+import javax.swing.table.DefaultTableModel;
 
 public class EditItem {
     public static void main(String args[]) {
