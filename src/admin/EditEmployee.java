@@ -151,7 +151,6 @@ public class EditEmployee extends javax.swing.JFrame {
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {
         AdminPanel ap=new AdminPanel();
         ap.setVisible(true);
-
-
+        setVisible(false);
     }
 }
