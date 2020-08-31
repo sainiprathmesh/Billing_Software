@@ -298,4 +298,7 @@ public class EditEmployee extends javax.swing.JFrame {
             }
         });
     }
+
+    private JLabel jLabel1;
+
 }
