@@ -24,5 +24,6 @@ public class EditEmployee extends javax.swing.JFrame {
         jLabel1 = new JLabel();
         jScrollPane1 = new JScrollPane();
         jTable1 = new JTable();
+        jTextField1 = new JTextField();
     }
 }
