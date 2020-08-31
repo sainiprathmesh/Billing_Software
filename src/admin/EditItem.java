@@ -34,5 +34,6 @@ public class EditItem {
     private JComboBox<String> jComboBox1;
     private JScrollPane jScrollPane2;
     private JTextArea jTextArea1;
+    private JLabel jLabel1;
 
 }
