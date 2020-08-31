@@ -168,7 +168,12 @@ public class EditEmployee extends javax.swing.JFrame {
             ResultSet rs=ps.executeQuery();
             while(rs.next())
             {
+                srno=srno+1;
+                name=rs.getString("name");
+                email=rs.getString("email");
 
+                Object[] ob={srno, name, email};
+                dtm.addRow(ob);
             }
             con.close();
         }
