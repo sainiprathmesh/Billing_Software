@@ -27,5 +27,6 @@ public class EditEmployee extends javax.swing.JFrame {
         jTextField1 = new JTextField();
         jTextField2 = new JTextField();
         jTextField3 = new JTextField();
+        jButton1 = new JButton();
     }
 }
