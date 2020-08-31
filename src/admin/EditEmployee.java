@@ -305,5 +305,6 @@ public class EditEmployee extends javax.swing.JFrame {
     private JTextField jTextField1;
     private JTextField jTextField2;
     private JTextField jTextField3;
+    private JButton jButton1;
 
 }
