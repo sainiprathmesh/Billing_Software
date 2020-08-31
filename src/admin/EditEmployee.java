@@ -189,6 +189,13 @@ public class EditEmployee extends javax.swing.JFrame {
         email=(String)jTable1.getValueAt(row, 2);
 
         String name = null, pass = null, phno = null;
+        try
+        {
 
+        }
+        catch(Exception e)
+        {
+
+        }
     }
 }
