@@ -84,6 +84,7 @@ public class EditEmployee extends javax.swing.JFrame {
         jLabel4.setText("Phone No :");
 
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
+        contentPane.setLayout(contentPaneLayout);
 
     }
 }
