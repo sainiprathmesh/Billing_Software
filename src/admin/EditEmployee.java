@@ -80,6 +80,7 @@ public class EditEmployee extends javax.swing.JFrame {
         jButton2.setText("Delete");
         jButton2.addActionListener(e -> jButton2ActionPerformed(e));
         jLabel2.setText("Name :");
+        jLabel3.setText("Password :");
 
     }
 }
