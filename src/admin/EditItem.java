@@ -5,6 +5,8 @@ import java.awt.*;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.*;
+import java.awt.image.BufferedImage;
+
 
 public class EditItem {
     public static void main(String args[]) {
