@@ -37,6 +37,7 @@ public class EditEmployee extends javax.swing.JFrame {
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowOpened(WindowEvent e) {
+                formWindowOpened(e);
             }
         });
     }
