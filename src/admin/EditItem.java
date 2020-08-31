@@ -2,6 +2,7 @@ package admin;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.Image;
 
 
 public class EditItem {
