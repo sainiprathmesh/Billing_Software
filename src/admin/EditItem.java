@@ -40,7 +40,7 @@ public class EditItem extends javax.swing.JFrame {
         jComboBox1 = new JComboBox<>();
         jScrollPane2 = new JScrollPane();
         jTextArea1 = new JTextArea();
-
+        jButton1 = new JButton();
 
 
     }
