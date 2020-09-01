@@ -33,6 +33,9 @@ public class EditItem extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
 
     private void initComponents() {
+        jScrollPane1 = new JScrollPane();
+
+
 
     }
 
