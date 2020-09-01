@@ -122,6 +122,9 @@ public class EditItem extends javax.swing.JFrame {
             jTextArea1.setRows(5);
             jScrollPane2.setViewportView(jTextArea1);
         }
+
+        jButton1.setText("Update");
+
     }
     private JScrollPane jScrollPane1;
     private JTable jTable1;
