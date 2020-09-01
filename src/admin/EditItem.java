@@ -32,6 +32,10 @@ public class EditItem extends javax.swing.JFrame {
     }
     @SuppressWarnings("unchecked")
 
+    private void initComponents() {
+
+    }
+
     public static void main(String args[]) {
 
         try {
