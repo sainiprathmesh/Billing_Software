@@ -117,6 +117,10 @@ public class EditItem extends javax.swing.JFrame {
                 "Grossery",
                 "Toys"
         }));
+        {
+            jTextArea1.setColumns(20);
+
+        }
     }
     private JScrollPane jScrollPane1;
     private JTable jTable1;
