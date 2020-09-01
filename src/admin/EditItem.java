@@ -22,6 +22,11 @@ import javax.swing.LayoutStyle;
 import javax.swing.table.DefaultTableModel;
 
 public class EditItem extends javax.swing.JFrame {
+
+    File file;
+
+
+
     public static void main(String args[]) {
 
         try {
