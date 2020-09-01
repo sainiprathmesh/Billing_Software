@@ -41,6 +41,7 @@ public class EditItem extends javax.swing.JFrame {
         jScrollPane2 = new JScrollPane();
         jTextArea1 = new JTextArea();
         jButton1 = new JButton();
+        jButton2 = new JButton();
 
 
     }
