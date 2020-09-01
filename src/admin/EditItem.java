@@ -43,13 +43,13 @@ public class EditItem extends javax.swing.JFrame {
         jButton1 = new JButton();
         jButton2 = new JButton();
         jButton3 = new JButton();
-        jLabel1 = new JLabel();
         jLabel2 = new JLabel();
         jLabel3 = new JLabel();
         jLabel4 = new JLabel();
         jLabel5 = new JLabel();
         jLabel6 = new JLabel();
 
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
     }
 
