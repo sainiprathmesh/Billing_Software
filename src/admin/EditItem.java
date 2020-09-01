@@ -111,6 +111,7 @@ public class EditItem extends javax.swing.JFrame {
             });
             jScrollPane1.setViewportView(jTable1);
         }
+        jComboBox1.setModel();
     }
     private JScrollPane jScrollPane1;
     private JTable jTable1;
