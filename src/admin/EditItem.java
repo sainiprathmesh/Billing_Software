@@ -99,6 +99,16 @@ public class EditItem extends javax.swing.JFrame {
                     return columnEditable[columnIndex];
                 }
             });
+            jTable1.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    jTable1MouseClicked(e);
+                }
+                @Override
+                public void mouseEntered(MouseEvent e) {
+                    jTable1MouseEntered(e);
+                }
+            });
 
         }
     }
