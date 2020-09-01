@@ -129,7 +129,11 @@ public class EditItem extends javax.swing.JFrame {
         jButton2.addActionListener(e -> jButton2ActionPerformed(e));
         jButton3.setText("Select Image");
         jButton3.addActionListener(e -> jButton3ActionPerformed(e));
+
+        jLabel2.setFont(new Font("Tahoma", Font.BOLD, 18));
+
     }
+
     private JScrollPane jScrollPane1;
     private JTable jTable1;
     private JTextField jTextField1;
