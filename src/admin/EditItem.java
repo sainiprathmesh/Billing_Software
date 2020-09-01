@@ -134,6 +134,12 @@ public class EditItem extends javax.swing.JFrame {
         jLabel2.setForeground(Color.red);
         jLabel2.setText("Back");
         jLabel2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        jLabel2.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                jLabel2MouseClicked(e);
+            }
+        });
     }
 
     private JScrollPane jScrollPane1;
