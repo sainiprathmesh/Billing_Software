@@ -313,8 +313,8 @@ public class AdminPanel extends javax.swing.JFrame {
     }
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
-        //   EditItem ei=new EditItem();
-        // ei.setVisible(true);
+        EditItem ei = new EditItem();
+        ei.setVisible(true);
         setVisible(false);
     }
 
