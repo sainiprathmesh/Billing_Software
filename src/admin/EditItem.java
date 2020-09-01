@@ -53,7 +53,7 @@ public class EditItem extends javax.swing.JFrame {
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowOpened(WindowEvent e) {
-
+                formWindowOpened(e);
             }
         });
     }
