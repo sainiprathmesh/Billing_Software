@@ -38,7 +38,7 @@ public class EditItem extends javax.swing.JFrame {
         jTextField1 = new JTextField();
         jTextField2 = new JTextField();
         jComboBox1 = new JComboBox<>();
-
+        jScrollPane2 = new JScrollPane();
 
 
     }
