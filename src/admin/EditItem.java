@@ -56,6 +56,7 @@ public class EditItem extends javax.swing.JFrame {
                 formWindowOpened(e);
             }
         });
+        var contentPane = getContentPane();
     }
 
     public static void main(String args[]) {
