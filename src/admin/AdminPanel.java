@@ -294,8 +294,8 @@ public class AdminPanel extends javax.swing.JFrame {
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
-        //  EditEmployee ee=new EditEmployee();
-        // ee.setVisible(true);
+        EditEmployee ee = new EditEmployee();
+        ee.setVisible(true);
         setVisible(false);
     }
 
