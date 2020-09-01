@@ -131,6 +131,7 @@ public class EditItem extends javax.swing.JFrame {
         jButton3.addActionListener(e -> jButton3ActionPerformed(e));
 
         jLabel2.setFont(new Font("Tahoma", Font.BOLD, 18));
+        jLabel2.setForeground(Color.red);
 
     }
 
