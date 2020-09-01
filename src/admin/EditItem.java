@@ -133,7 +133,7 @@ public class EditItem extends javax.swing.JFrame {
         jLabel2.setFont(new Font("Tahoma", Font.BOLD, 18));
         jLabel2.setForeground(Color.red);
         jLabel2.setText("Back");
-
+        jLabel2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
     }
 
     private JScrollPane jScrollPane1;
