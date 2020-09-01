@@ -82,6 +82,25 @@ public class EditItem extends javax.swing.JFrame {
                 new EditItem().setVisible(true);
             }
         });
+
+        {
+            jTable1.setModel(new DefaultTableModel(
+                    new Object[][] {
+                    },
+                    new String[] {
+                            "Sr. No.", "Item ID", "Item Name"
+                    }
+            ) {
+                boolean[] columnEditable = new boolean[] {
+                        false, false, false
+                };
+                @Override
+                public boolean isCellEditable(int rowIndex, int columnIndex) {
+                    return columnEditable[columnIndex];
+                }
+            });
+
+        }
     }
     private JScrollPane jScrollPane1;
     private JTable jTable1;
