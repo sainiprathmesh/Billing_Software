@@ -109,7 +109,7 @@ public class EditItem extends javax.swing.JFrame {
                     jTable1MouseEntered(e);
                 }
             });
-
+            jScrollPane1.setViewportView(jTable1);
         }
     }
     private JScrollPane jScrollPane1;
