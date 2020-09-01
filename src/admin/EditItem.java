@@ -35,6 +35,7 @@ public class EditItem extends javax.swing.JFrame {
     private void initComponents() {
         jScrollPane1 = new JScrollPane();
         jTable1 = new JTable();
+        jTextField1 = new JTextField();
 
 
 
