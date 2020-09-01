@@ -25,6 +25,8 @@ public class EditItem extends javax.swing.JFrame {
 
     File file;
 
+    String select_itemid;
+
 
 
     public static void main(String args[]) {
