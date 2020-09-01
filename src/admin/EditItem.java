@@ -140,6 +140,8 @@ public class EditItem extends javax.swing.JFrame {
                 jLabel2MouseClicked(e);
             }
         });
+        jLabel3.setText("Name :");
+
     }
 
     private JScrollPane jScrollPane1;
