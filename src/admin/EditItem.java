@@ -50,7 +50,12 @@ public class EditItem extends javax.swing.JFrame {
         jLabel6 = new JLabel();
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        addWindowListener(new WindowAdapter() );
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowOpened(WindowEvent e) {
+
+            }
+        });
     }
 
     public static void main(String args[]) {
