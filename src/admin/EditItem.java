@@ -124,6 +124,7 @@ public class EditItem extends javax.swing.JFrame {
         }
 
         jButton1.setText("Update");
+        jButton1.addActionListener(e -> jButton1ActionPerformed(e));
 
     }
     private JScrollPane jScrollPane1;
