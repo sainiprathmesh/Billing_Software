@@ -128,7 +128,7 @@ public class EditItem extends javax.swing.JFrame {
         jButton2.setText("Delete");
         jButton2.addActionListener(e -> jButton2ActionPerformed(e));
         jButton3.setText("Select Image");
-
+        jButton3.addActionListener(e -> jButton3ActionPerformed(e));
     }
     private JScrollPane jScrollPane1;
     private JTable jTable1;
