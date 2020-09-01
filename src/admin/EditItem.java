@@ -44,7 +44,7 @@ public class EditItem extends javax.swing.JFrame {
         jButton2 = new JButton();
         jButton3 = new JButton();
         jLabel1 = new JLabel();
-
+        jLabel2 = new JLabel();
 
 
     }
