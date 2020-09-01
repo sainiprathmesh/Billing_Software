@@ -37,6 +37,7 @@ public class EditItem extends javax.swing.JFrame {
         jTable1 = new JTable();
         jTextField1 = new JTextField();
         jTextField2 = new JTextField();
+        jComboBox1 = new JComboBox<>();
 
 
 
