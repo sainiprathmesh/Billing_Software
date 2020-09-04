@@ -64,6 +64,9 @@ EmpDetails ed;
                 contentPaneLayout.setHorizontalGroup();
                 contentPaneLayout.createParallelGroup();
                 .addGroup(contentPaneLayout.createSequentialGroup()
+                    .addGroup(contentPaneLayout.createParallelGroup()
+                        .addGroup(contentPaneLayout.createSequentialGroup();
+
 
 
 
@@ -77,6 +80,9 @@ EmpDetails ed;
 
 
 
+    }
+
+    private void addGroup(GroupLayout.SequentialGroup addGroup) {
     }
 
 
