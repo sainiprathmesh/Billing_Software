@@ -31,6 +31,7 @@ EmpDetails ed;
                 jTextField1 = new JTextField();
                 jPasswordField1 = new JPasswordField();
                 jPasswordField2 = new JPasswordField();
+                jButton1 = new JButton();
 
 
         }
