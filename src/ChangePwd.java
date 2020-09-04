@@ -34,6 +34,7 @@ EmpDetails ed;
                 jButton1 = new JButton();
                 //======== this ========
                 setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+                var contentPane = getContentPane();
 
 
         }
