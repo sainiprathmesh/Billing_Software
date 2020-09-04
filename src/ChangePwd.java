@@ -86,6 +86,7 @@ EmpDetails ed;
                     // TODO add your handling code here:
                     EmpPanel ep=new EmpPanel(ed);
             ep.setVisible(true);
+            setVisible(false);
 
 
 
