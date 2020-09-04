@@ -35,6 +35,7 @@ EmpDetails ed;
                 //======== this ========
                 setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
                 var contentPane = getContentPane();
+                //---- jLabel1 ----
 
 
         }
