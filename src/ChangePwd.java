@@ -80,6 +80,9 @@ EmpDetails ed;
                 pack();
                 setLocationRelativeTo(null);
             }// </editor-fold>//GEN-END:initComponents
+            private void jLabel1MouseClicked(java.awt.event.MouseEvent ){
+                //GEN-FIRST:event_jLabel1MouseClicked
+
 
 
 
