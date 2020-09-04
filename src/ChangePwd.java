@@ -83,6 +83,7 @@ EmpDetails ed;
             }// </editor-fold>//GEN-END:initComponents
             private void jLabel1MouseClicked(java.awt.event.MouseEvent ){
                 //GEN-FIRST:event_jLabel1MouseClicked
+                    // TODO add your handling code here:
 
 
 
