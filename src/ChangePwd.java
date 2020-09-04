@@ -4,11 +4,16 @@
 package employee;
 
 
+import model.EmpDetails;
+
 public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
 /**
  * Creates new form ChangePwd
  */
+
+EmpDetails ed;
+
 
     }
 
