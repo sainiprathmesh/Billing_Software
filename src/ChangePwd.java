@@ -28,6 +28,7 @@ EmpDetails ed;
             // Generated using JFormDesigner Evaluation license - unknown
             private void initComponents() {
                 jLabel1 = new JLabel();
+                jTextField1 = new JTextField();
 
 
         }
