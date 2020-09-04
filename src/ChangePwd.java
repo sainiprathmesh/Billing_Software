@@ -34,6 +34,7 @@ EmpDetails ed;
                 JPasswordField jPasswordField1;
                 JPasswordField jPasswordField2;
                 JLabel jLabel1 = null;
+                JButton jButton1;
 
                 jLabel1 = new JLabel();
                 jTextField1 = new JTextField();
@@ -44,7 +45,6 @@ EmpDetails ed;
                 setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
                 var contentPane = getContentPane();
                 //---- jLabel1 ----
-                JButton jButton1;
 
                 jLabel1.setFont(new Font("Tahoma", Font.BOLD, 18));
                 jLabel1.setForeground(new Color(255, 0, 51));
