@@ -29,6 +29,7 @@ EmpDetails ed;
             private void initComponents() {
                 jLabel1 = new JLabel();
                 jTextField1 = new JTextField();
+                jPasswordField1 = new JPasswordField();
 
 
         }
