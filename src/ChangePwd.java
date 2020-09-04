@@ -68,6 +68,9 @@ EmpDetails ed;
                         .addGroup(contentPaneLayout.createSequentialGroup();
                             .addGap(31, 31, 31);
                             .addComponent(jLabel1))
+                    .addGap(53, 53, 53);
+
+
 
 
             }
