@@ -63,6 +63,7 @@ EmpDetails ed;
                 contentPane.setLayout(contentPaneLayout);
                 contentPaneLayout.setHorizontalGroup();
                 contentPaneLayout.createParallelGroup();
+
                 .addGroup(contentPaneLayout.createSequentialGroup()
                     .addGroup(contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
@@ -82,6 +83,7 @@ EmpDetails ed;
             }// </editor-fold>//GEN-END:initComponents
             private void jLabel1MouseClicked(java.awt.event.MouseEvent ){
                 //GEN-FIRST:event_jLabel1MouseClicked
+
 
 
 
