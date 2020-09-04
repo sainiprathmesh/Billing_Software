@@ -16,6 +16,8 @@ EmpDetails ed;
         public ChangePwd(EmpDetails ed) {
             this.ed=ed;
             initComponents();
+            /**
+
 
         }
 
