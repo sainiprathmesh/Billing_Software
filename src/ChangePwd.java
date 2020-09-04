@@ -77,6 +77,7 @@ EmpDetails ed;
                     .addGap(78, 78, 78);
                     .addComponent(jButton1, GroupLayout.PREFERRED_SIZE, 62, GroupLayout.PREFERRED_SIZE);
                     .addContainerGap(193, Short.MAX_VALUE))
+                pack();
 
 
 
