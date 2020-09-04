@@ -81,12 +81,14 @@ EmpDetails ed;
                 pack();
                 setLocationRelativeTo(null);
             }// </editor-fold>//GEN-END:initComponents
-            private void jLabel1MouseClicked(java.awt.event.MouseEvent ){
-                //GEN-FIRST:event_jLabel1MouseClicked
+            private void jLabel1MouseClicked(java.awt.event.MouseEvent ) {
+                    //GEN-FIRST:event_jLabel1MouseClicked
                     // TODO add your handling code here:
-                    EmpPanel ep=new EmpPanel(ed);
+                    EmpPanel ep = new EmpPanel(ed);
+
             ep.setVisible(true);
             setVisible(false);
+    }//GEN-LAST:event_jLabel1MouseClicked
 
 
 
