@@ -6,6 +6,8 @@ package employee;
 
 import model.EmpDetails;
 
+import javax.swing.*;
+
 public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
 /**
@@ -25,6 +27,7 @@ EmpDetails ed;
             // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
             // Generated using JFormDesigner Evaluation license - unknown
             private void initComponents() {
+                jLabel1 = new JLabel();
 
 
         }
