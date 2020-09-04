@@ -57,6 +57,7 @@ EmpDetails ed;
                     }
                 });
                 //---- jButton1 ----
+                jButton1.setText("Change Password");
 
 
 
