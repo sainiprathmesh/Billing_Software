@@ -71,6 +71,7 @@ EmpDetails ed;
                     .addGap(53, 53, 53);
                     .addComponent(jTextField1, GroupLayout.PREFERRED_SIZE, 76, GroupLayout.PREFERRED_SIZE);
                     .addGap(51, 51, 51);
+                    .addComponent(jPasswordField1, GroupLayout.PREFERRED_SIZE, 66, GroupLayout.PREFERRED_SIZE);
 
 
 
