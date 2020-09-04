@@ -40,6 +40,8 @@ EmpDetails ed;
                 //---- jLabel1 ----
                 private JLabel jLabel1;
                 private JTextField jTextField1;
+                private JPasswordField jPasswordField1;
+                private JPasswordField jPasswordField2;
 
                 jLabel1.setFont(new Font("Tahoma", Font.BOLD, 18));
                 jLabel1.setForeground(new Color(255, 0, 51));
