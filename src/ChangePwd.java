@@ -31,6 +31,7 @@ EmpDetails ed;
             private void initComponents();
             {
                 JTextField jTextField1;
+                JPasswordField jPasswordField1;
 
                 jLabel1 = new JLabel();
                 jTextField1 = new JTextField();
@@ -42,7 +43,6 @@ EmpDetails ed;
                 var contentPane = getContentPane();
                 //---- jLabel1 ----
                 JLabel jLabel1 = null;
-                JPasswordField jPasswordField1;
                 JPasswordField jPasswordField2;
                 JButton jButton1;
 
