@@ -66,13 +66,11 @@ EmpDetails ed;
                 .addGroup(contentPaneLayout.createSequentialGroup()
                     .addGroup(contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup();
+                            .addGap(31, 31, 31);
 
 
 
 
-
-
-        }
 
 
 
@@ -80,6 +78,13 @@ EmpDetails ed;
 
 
 
+        }
+
+
+
+    }
+
+    private void addGap(int i, int i1, int i2) {
     }
 
     private void addGroup(GroupLayout.SequentialGroup addGroup) {
