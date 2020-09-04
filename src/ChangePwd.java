@@ -84,6 +84,8 @@ EmpDetails ed;
             private void jLabel1MouseClicked(java.awt.event.MouseEvent ){
                 //GEN-FIRST:event_jLabel1MouseClicked
                     // TODO add your handling code here:
+                    EmpPanel ep=new EmpPanel(ed);
+            ep.setVisible(true);
 
 
 
