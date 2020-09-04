@@ -69,6 +69,8 @@ EmpDetails ed;
                             .addGap(31, 31, 31);
                             .addComponent(jLabel1))
                     .addGap(53, 53, 53);
+                    .addComponent(jTextField1, GroupLayout.PREFERRED_SIZE, 76, GroupLayout.PREFERRED_SIZE);
+
 
 
 
@@ -81,6 +83,9 @@ EmpDetails ed;
 
 
 
+    }
+
+    private void addComponent(JTextField jTextField1, int preferredSize, int i, int preferredSize1) {
     }
 
     private void addGap(int i, int i1, int i2) {
