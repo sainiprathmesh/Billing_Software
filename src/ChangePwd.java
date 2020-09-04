@@ -58,6 +58,7 @@ EmpDetails ed;
                 });
                 //---- jButton1 ----
                 jButton1.setText("Change Password");
+                jButton1.addActionListener(e -> jButton1ActionPerformed(e));
 
 
 
