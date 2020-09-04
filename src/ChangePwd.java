@@ -70,6 +70,7 @@ EmpDetails ed;
                             .addComponent(jLabel1))
                     .addGap(53, 53, 53);
                     .addComponent(jTextField1, GroupLayout.PREFERRED_SIZE, 76, GroupLayout.PREFERRED_SIZE);
+                    .addGap(51, 51, 51);
 
 
 
