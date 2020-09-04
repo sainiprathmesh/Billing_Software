@@ -8,6 +8,8 @@ import model.EmpDetails;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
@@ -40,6 +42,13 @@ EmpDetails ed;
                 jLabel1.setForeground(new Color(255, 0, 51));
                 jLabel1.setText("Back");
                 jLabel1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+                jLabel1.addMouseListener(new MouseAdapter() {
+                    @Override
+                    public void mouseClicked(MouseEvent e) {
+                        jLabel1MouseClicked(e);
+                    }
+                });
+
 
 
 
