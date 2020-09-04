@@ -7,6 +7,7 @@ package employee;
 import model.EmpDetails;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
@@ -36,6 +37,7 @@ EmpDetails ed;
                 setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
                 var contentPane = getContentPane();
                 //---- jLabel1 ----
+                jLabel1.setFont(new Font("Tahoma", Font.BOLD, 18));
 
 
         }
