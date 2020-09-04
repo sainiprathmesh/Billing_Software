@@ -61,7 +61,10 @@ EmpDetails ed;
                 jButton1.addActionListener(e -> jButton1ActionPerformed(e));
                 GroupLayout contentPaneLayout = new GroupLayout(contentPane);
                 contentPane.setLayout(contentPaneLayout);
-                contentPaneLayout.setHorizontalGroup(
+                contentPaneLayout.setHorizontalGroup();
+                contentPaneLayout.createParallelGroup();
+                .addGroup(contentPaneLayout.createSequentialGroup()
+
 
 
 
