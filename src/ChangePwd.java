@@ -32,6 +32,8 @@ EmpDetails ed;
                 jPasswordField1 = new JPasswordField();
                 jPasswordField2 = new JPasswordField();
                 jButton1 = new JButton();
+                //======== this ========
+                setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
 
         }
