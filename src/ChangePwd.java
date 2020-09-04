@@ -30,6 +30,7 @@ EmpDetails ed;
                 jLabel1 = new JLabel();
                 jTextField1 = new JTextField();
                 jPasswordField1 = new JPasswordField();
+                jPasswordField2 = new JPasswordField();
 
 
         }
