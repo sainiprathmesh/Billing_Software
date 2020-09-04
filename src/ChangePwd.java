@@ -8,6 +8,7 @@ public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
 /**
  * Creates new form ChangePwd
+ */
 
     }
 
