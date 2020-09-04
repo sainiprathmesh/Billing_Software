@@ -28,7 +28,10 @@ EmpDetails ed;
              */
             // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
             // Generated using JFormDesigner Evaluation license - unknown
-            private void initComponents(); {
+            private void initComponents();
+            {
+                JTextField jTextField1;
+
                 jLabel1 = new JLabel();
                 jTextField1 = new JTextField();
                 jPasswordField1 = new JPasswordField();
@@ -38,11 +41,10 @@ EmpDetails ed;
                 setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
                 var contentPane = getContentPane();
                 //---- jLabel1 ----
-                private JLabel jLabel1;
-                private JTextField jTextField1;
-                private JPasswordField jPasswordField1;
-                private JPasswordField jPasswordField2;
-                private JButton jButton1;
+                JLabel jLabel1 = null;
+                JPasswordField jPasswordField1;
+                JPasswordField jPasswordField2;
+                JButton jButton1;
 
                 jLabel1.setFont(new Font("Tahoma", Font.BOLD, 18));
                 jLabel1.setForeground(new Color(255, 0, 51));
