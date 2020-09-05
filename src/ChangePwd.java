@@ -146,6 +146,7 @@ public static void main(String args[]) {
      * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
      */
     try {
+        for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
 
 
 
