@@ -95,6 +95,7 @@ EmpDetails ed;
                 String old_pwd=jTextField1.getText();
                 String new_pwd=jPasswordField1.getText();
                 String cnew_pwd=jPasswordField2.getText();
+                String dboldpwd=null;
 
 
 
