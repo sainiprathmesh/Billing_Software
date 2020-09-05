@@ -109,6 +109,8 @@ EmpDetails ed;
                     {
                         dboldpwd=rs.getString("password");
                     }
+                catch(Exception e)
+
 
 
 
