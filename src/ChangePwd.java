@@ -91,6 +91,7 @@ EmpDetails ed;
     }//GEN-LAST:event_jLabel1MouseClicked
             private void jButton1ActionPerformed(java.awt.event.ActionEvent); {//GEN-FIRST:event_jButton1ActionPerformed
                 // TODO add your handling code here:
+                String old_pwd=jTextField1.getText();
 
 
 
