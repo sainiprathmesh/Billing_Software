@@ -151,6 +151,7 @@ public static void main(String args[]) {
                 javax.swing.UIManager.setLookAndFeel(info.getClassName());
                 break;
             }
+        }
 
 
 
