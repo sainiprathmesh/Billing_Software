@@ -130,6 +130,7 @@ EmpDetails ed;
                     }
                     con1.close();
                 }
+                catch(Exception e)
 
 
 
