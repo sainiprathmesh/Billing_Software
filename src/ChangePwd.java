@@ -12,6 +12,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
@@ -103,6 +104,7 @@ EmpDetails ed;
                 {
                     con=dbconnection.DbConnection.getConnect();
                     PreparedStatement ps=con.prepareStatement("select * from register where email='"+ed.getEmail()+"'");
+                    ResultSet rs=ps.executeQuery();
 
 
 
