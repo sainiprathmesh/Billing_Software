@@ -105,13 +105,15 @@ EmpDetails ed;
                     con=dbconnection.DbConnection.getConnect();
                     PreparedStatement ps=con.prepareStatement("select * from register where email='"+ed.getEmail()+"'");
                     ResultSet rs=ps.executeQuery();
-                    while(rs.next())
+
+                    {
 
 
 
 
 
-            }
+
+                    }
 
 
 
