@@ -98,8 +98,7 @@ EmpDetails ed;
                 String cnew_pwd=jPasswordField2.getText();
                 String dboldpwd=null;
                 Connection con = null;
-
-
+                try
 
 
 
