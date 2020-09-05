@@ -150,6 +150,7 @@ public static void main(String args[]) {
             if ("Nimbus".equals(info.getName())) {
                 javax.swing.UIManager.setLookAndFeel(info.getClassName());
                 break;
+            }
 
 
 
