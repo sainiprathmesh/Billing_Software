@@ -36,6 +36,9 @@ EmpDetails ed;
             // Generated using JFormDesigner Evaluation license - unknown
             private void initComponents();
             {
+                private JLabel jLabel1;
+
+            }
                 JTextField jTextField1;
                 JPasswordField jPasswordField1;
                 JPasswordField jPasswordField2;
