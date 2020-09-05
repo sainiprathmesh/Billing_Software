@@ -167,21 +167,8 @@ public static void main(String args[]) {
         public void run() {
             new employee.ChangePwd(null).setVisible(true);
         }
-
-
-
-
-
-
-                    }
-
-
-
-        }
-
-
-
-    }
+    });
+}
 
     private void initComponents() {
     }
