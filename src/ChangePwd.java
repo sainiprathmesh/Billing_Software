@@ -100,6 +100,7 @@ EmpDetails ed;
                 Connection con = null;
                 try
                 {
+                    con=dbconnection.DbConnection.getConnect();
 
 
 
