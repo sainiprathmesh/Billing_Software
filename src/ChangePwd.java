@@ -53,7 +53,7 @@ EmpDetails ed;
                 jLabel1.addMouseListener(new MouseAdapter() {
                     @Override
                     public void mouseClicked(MouseEvent e) {
-                        jLabel1MouseClicked(e);
+                        jLabel1MouseClicked(e));
                     }
                 });
                 //---- jButton1 ----
@@ -91,8 +91,10 @@ EmpDetails ed;
     }//GEN-LAST:event_jLabel1MouseClicked
             private void jButton1ActionPerformed(java.awt.event.ActionEvent); {//GEN-FIRST:event_jButton1ActionPerformed
                 // TODO add your handling code here:
+
                 String old_pwd=jTextField1.getText();
                 String new_pwd=jPasswordField1.getText();
+                String cnew_pwd=jPasswordField2.getText();
 
 
 
