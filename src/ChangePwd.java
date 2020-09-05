@@ -37,6 +37,7 @@ EmpDetails ed;
             private void initComponents();
             {
                 private JLabel jLabel1;
+                private JTextField jTextField1;
 
             }
                 JTextField jTextField1;
