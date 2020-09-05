@@ -10,6 +10,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.sql.Connection;
 
 public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
@@ -96,6 +97,7 @@ EmpDetails ed;
                 String new_pwd=jPasswordField1.getText();
                 String cnew_pwd=jPasswordField2.getText();
                 String dboldpwd=null;
+                Connection con = null;
 
 
 
