@@ -123,6 +123,7 @@ EmpDetails ed;
                         } catch (SQLException ex) {
                             Logger.getLogger(admin.ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
                         }
+                    }
 
 
 
