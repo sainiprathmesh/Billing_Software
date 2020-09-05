@@ -108,6 +108,7 @@ EmpDetails ed;
 
                     {
                         dboldpwd=rs.getString("password");
+                    }
 
 
 
