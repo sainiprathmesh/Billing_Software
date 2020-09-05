@@ -157,6 +157,7 @@ public static void main(String args[]) {
     } catch (InstantiationException ex) {
         Logger.getLogger(employee.ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
     } catch (IllegalAccessException ex) {
+        Logger.getLogger(employee.ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
 
 
 
