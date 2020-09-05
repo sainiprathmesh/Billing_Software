@@ -111,6 +111,7 @@ EmpDetails ed;
                     }
                 catch(Exception e)
                     {
+                        System.out.println(e);
 
 
 
