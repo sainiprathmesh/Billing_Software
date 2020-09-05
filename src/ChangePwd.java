@@ -109,6 +109,9 @@ EmpDetails ed;
 
     }
 
+    private void initComponents() {
+    }
+
     private void addContainerGap(int i, short maxValue) {
     }
 
