@@ -14,6 +14,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
@@ -119,6 +121,7 @@ EmpDetails ed;
                         try {
                             con.close();
                         } catch (SQLException ex) {
+                            Logger.getLogger(admin.ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
 
 
 
