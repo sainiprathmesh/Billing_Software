@@ -13,6 +13,7 @@ import java.awt.event.MouseEvent;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class ChangePwd {
     public class ChangePwd extends javax.swing.JFrame {
@@ -117,6 +118,7 @@ EmpDetails ed;
                     {
                         try {
                             con.close();
+                        } catch (SQLException ex) {
 
 
 
