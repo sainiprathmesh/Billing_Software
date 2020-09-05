@@ -161,6 +161,7 @@ public static void main(String args[]) {
     } catch (javax.swing.UnsupportedLookAndFeelException ex) {
         Logger.getLogger(employee.ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
     }
+    //</editor-fold>
 
 
 
