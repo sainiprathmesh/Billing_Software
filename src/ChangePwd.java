@@ -107,6 +107,7 @@ EmpDetails ed;
                     ResultSet rs=ps.executeQuery();
 
                     {
+                        dboldpwd=rs.getString("password");
 
 
 
