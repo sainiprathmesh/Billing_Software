@@ -128,6 +128,7 @@ EmpDetails ed;
                     {
                         JOptionPane.showMessageDialog(rootPane, "Old password didnt matched", "Error", JOptionPane.ERROR_MESSAGE);
                     }
+                    con1.close();
 
 
 
