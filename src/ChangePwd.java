@@ -124,6 +124,7 @@ EmpDetails ed;
                             Logger.getLogger(admin.ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
                         }
                     }
+                    if(!old_pwd.equals(dboldpwd))
 
 
 
