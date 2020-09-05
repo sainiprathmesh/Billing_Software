@@ -153,6 +153,7 @@ public static void main(String args[]) {
             }
         }
     } catch (ClassNotFoundException ex) {
+        Logger.getLogger(employee.ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
 
 
 
