@@ -40,6 +40,7 @@ EmpDetails ed;
                 private JTextField jTextField1;
                 private JPasswordField jPasswordField1;
                 private JPasswordField jPasswordField2;
+                private JButton jButton1;
 
             }
                 JTextField jTextField1;
