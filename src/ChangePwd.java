@@ -89,6 +89,10 @@ EmpDetails ed;
             ep.setVisible(true);
             setVisible(false);
     }//GEN-LAST:event_jLabel1MouseClicked
+            private void jButton1ActionPerformed(java.awt.event.ActionEvent); {//GEN-FIRST:event_jButton1ActionPerformed
+                // TODO add your handling code here:
+
+
 
 
 
