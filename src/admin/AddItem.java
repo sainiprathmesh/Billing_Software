@@ -11,4 +11,9 @@ public class AddItem extends javax.swing.JFrame {
     public AddItem() {
         initComponents();
     }
+
+    @SuppressWarnings("unchecked")
+    private void initComponents() {
+
+    }
 }
