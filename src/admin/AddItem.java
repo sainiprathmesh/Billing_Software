@@ -7,4 +7,8 @@ import java.io.File;
  */
 public class AddItem extends javax.swing.JFrame {
     File file;
+
+    public AddItem() {
+
+    }
 }
