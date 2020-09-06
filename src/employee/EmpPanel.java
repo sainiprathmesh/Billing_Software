@@ -119,8 +119,8 @@ public class EmpPanel extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 
-        //ChangePwd cp=new ChangePwd(ed);
-        //cp.setVisible(true);
+        ChangePwd cp = new ChangePwd(ed);
+        cp.setVisible(true);
         setVisible(false);
 
     }
