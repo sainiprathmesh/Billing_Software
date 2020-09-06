@@ -33,11 +33,9 @@ public class ChangePwd extends javax.swing.JFrame {
         jPasswordField2 = new JPasswordField();
         jButton1 = new JButton();
 
-        //======== this ========
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         var contentPane = getContentPane();
 
-        //---- jLabel1 ----
         jLabel1.setFont(new Font("Tahoma", Font.BOLD, 18));
         jLabel1.setForeground(new Color(255, 0, 51));
         jLabel1.setText("Back");
@@ -49,7 +47,6 @@ public class ChangePwd extends javax.swing.JFrame {
             }
         });
 
-        //---- jButton1 ----
         jButton1.setText("Change Password");
         jButton1.addActionListener(e -> jButton1ActionPerformed(e));
 
@@ -92,8 +89,7 @@ public class ChangePwd extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }
 
-    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
-        // TODO add your handling code here:
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {
 
         EmpPanel ep = new EmpPanel(ed);
         ep.setVisible(true);
@@ -101,8 +97,7 @@ public class ChangePwd extends javax.swing.JFrame {
 
     }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 
         String old_pwd = jTextField1.getText();
         String new_pwd = jPasswordField1.getText();
