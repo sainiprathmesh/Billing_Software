@@ -151,7 +151,29 @@ public class ChangePwd extends javax.swing.JFrame {
     }
 
     public static void main(String[] args) {
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            Logger.getLogger(ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            Logger.getLogger(ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            Logger.getLogger(ChangePwd.class.getName()).log(Level.SEVERE, null, ex);
+        }
 
+
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new ChangePwd(null).setVisible(true);
+            }
+        });
     }
 
     private JLabel jLabel1;
