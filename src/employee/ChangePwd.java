@@ -148,6 +148,9 @@ public class ChangePwd extends javax.swing.JFrame {
                 System.out.println(e);
             }
         }
+    }
+
+    public static void main(String[] args) {
 
     }
 
