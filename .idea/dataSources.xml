@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
 
-    <data-source source="LOCAL" name="MySQL for 5.1 - billing_software@localhost" uuid="c26638d3-879f-4b51-809d-f0bbd9bf6972">
+    <data-source source="LOCAL" name="billing_software@localhost" uuid="7e958982-ab59-40ba-8f97-a6a73bb8a47f">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
