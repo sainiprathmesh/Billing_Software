@@ -307,8 +307,8 @@ public class AdminPanel extends javax.swing.JFrame {
 
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
-        // AddItem ai=new AddItem();
-        //ai.setVisible(true);
+        AddItem ai = new AddItem();
+        ai.setVisible(true);
         setVisible(false);
     }
 
