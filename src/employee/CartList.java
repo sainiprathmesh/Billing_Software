@@ -70,7 +70,7 @@ public class CartList extends javax.swing.JFrame {
             ImageIcon icon = new ImageIcon(new_imgg);
             jLabel3.setIcon(icon);
         } catch (Exception e) {
-//            System.out.println(e);
+            System.out.println(e);
         }
 
     }
