@@ -110,9 +110,50 @@ public class CartList extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(rootPane, "Item not updated due to some error");
             }
         }
+    }
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+
+//        int i=JOptionPane.showConfirmDialog(rootPane, "Are you sure you want to delete this item");
+//        if(i==0)
+//        {
+//            DefaultTableModel dtm=(DefaultTableModel) jTable1.getModel();
+//            int totalprice1=(Integer)jTable1.getValueAt(row, 5);
+//
+//            String item_id=(String)jTable1.getValueAt(row, 1);
+//            int hmkey;
+//            int ii=0;
+//            for (Map.Entry<Integer, ArrayList> map : this.hm.entrySet())
+//            {
+//                ArrayList al = map.getValue();
+//                if(al.get(ii).equals(item_id))
+//                {
+//                    hmkey=map.getKey();
+//                    hm.remove(hmkey);
+//                }
+//                ii=ii+1;
+//            }
+//
+//
+//            String totalprice2=jLabel2.getText();
+//            int newprice=Integer.parseInt(totalprice2) - totalprice1;
+//            jLabel2.setText(String.valueOf(newprice));
+//
+//            dtm.removeRow(row);
+//            jLabel3.setIcon(new ImageIcon(getClass().getResource("/images/no_products_found.png")));
+//
+//            jComboBox1.setSelectedIndex(0);
+//
+//            for (Map.Entry<Integer, ArrayList> map : hm.entrySet())
+//            {
+//                System.out.println(map.getKey());
+//            }
+//
+//            JOptionPane.showMessageDialog(rootPane, "Item deleted from cart successfully");
+//        }
 
     }
+
 
     private JTable jTable1;
     private JLabel jLabel4;
