@@ -114,7 +114,7 @@ public class CartList extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 
-//        int i=JOptionPane.showConfirmDialog(rootPane, "Are you sure you want to delete this item");
+        int i = JOptionPane.showConfirmDialog(rootPane, "Are you sure you want to delete this item");
 //        if(i==0)
 //        {
 //            DefaultTableModel dtm=(DefaultTableModel) jTable1.getModel();
