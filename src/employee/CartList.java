@@ -4,6 +4,10 @@ import model.EmpDetails;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -43,6 +47,36 @@ public class CartList extends javax.swing.JFrame {
         jLabel2.setText(String.valueOf(totalprice));
 
     }
+
+    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
+        // TODO add your handling code here:
+
+        row = jTable1.getSelectedRow();
+        select_itemid = (String) jTable1.getValueAt(row, 1);
+        quantity = (String) jTable1.getValueAt(row, 4);
+
+        String id, name = null, price = null, desc = null, category = null;
+        byte[] image = null;
+        try {
+            Connection con = dbconnection.DbConnection.getConnect();
+            PreparedStatement ps = con.prepareStatement("select * from items where id='" + select_itemid + "'");
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                image = rs.getBytes("image");
+            }
+
+            jComboBox1.setSelectedItem(quantity);
+
+            Image img = Toolkit.getDefaultToolkit().createImage(image);
+            Image new_imgg = img.getScaledInstance(jLabel3.getWidth(), jLabel3.getHeight(), Image.SCALE_SMOOTH);
+            ImageIcon icon = new ImageIcon(new_imgg);
+            jLabel3.setIcon(icon);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
+    }
+
 
     private JTable jTable1;
     private JLabel jLabel4;
