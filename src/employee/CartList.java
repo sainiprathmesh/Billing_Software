@@ -35,7 +35,7 @@ public class CartList extends javax.swing.JFrame {
             name = (String) al.get(1);
             price = (String) al.get(2);
             quantity = (String) al.get(3);
-//            Object[] oo = {srno, id, name, price, quantity, (Integer.parseInt(price) * Integer.parseInt(quantity))};
+            Object[] oo = {srno, id, name, price, quantity, (Integer.parseInt(price) * Integer.parseInt(quantity))};
 //            dtm.addRow(oo);
 //
 //            totalprice = totalprice + (Integer.parseInt(price) * Integer.parseInt(quantity));
