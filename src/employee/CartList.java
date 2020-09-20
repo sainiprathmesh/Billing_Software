@@ -21,5 +21,6 @@ public class CartList extends javax.swing.JFrame {
     }
 
     private JLabel jLabel4;
+    private JButton jButton2;
 
 }
