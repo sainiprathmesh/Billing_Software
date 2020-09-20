@@ -18,5 +18,7 @@ public class CartList extends javax.swing.JFrame {
 
 //        initComponents();
     }
+//    private JLabel jLabel4;
+
 
 }
