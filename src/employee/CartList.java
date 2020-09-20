@@ -20,6 +20,7 @@ public class CartList extends javax.swing.JFrame {
 //        initComponents();
     }
 
+    private JTable jTable1;
     private JLabel jLabel4;
     private JButton jButton2;
     private JButton jButton1;
@@ -27,5 +28,13 @@ public class CartList extends javax.swing.JFrame {
     private JLabel jLabel3;
     private JLabel jLabel2;
     private JLabel jLabel1;
+    private JScrollPane jScrollPane1;
 
+    public static void main(String args[]) {
+//        java.awt.EventQueue.invokeLater(new Runnable() {
+//            public void run() {
+//                new CartList(null, null).setVisible(true);
+//            }
+//        });
+    }
 }
