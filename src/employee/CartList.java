@@ -128,7 +128,7 @@ public class CartList extends javax.swing.JFrame {
                     hmkey = map.getKey();
                     hm.remove(hmkey);
                 }
-//                ii = ii + 1;
+                ii = ii + 1;
             }
 
 
@@ -150,6 +150,12 @@ public class CartList extends javax.swing.JFrame {
 
     }
 
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {
+//        StartBilling sb=new StartBilling(ed, hm);
+//        sb.setVisible(true);
+//        setVisible(false);
+
+    }
 
     private JTable jTable1;
     private JLabel jLabel4;
