@@ -96,13 +96,13 @@ public class CartList extends javax.swing.JFrame {
                 ArrayList al1;
                 int totalprice = 0;
                 String price1;
-                for (Map.Entry m : hm.entrySet()) {
-                    al1 = (ArrayList) m.getValue();
-                    price1 = (String) al1.get(2);
-                    quantity = (String) al1.get(3);
-
-                    totalprice = totalprice + (Integer.parseInt(price1) * Integer.parseInt(quantity));
-                }
+//                for (Map.Entry m : hm.entrySet()) {
+//                    al1 = (ArrayList) m.getValue();
+//                    price1 = (String) al1.get(2);
+//                    quantity = (String) al1.get(3);
+//
+//                    totalprice = totalprice + (Integer.parseInt(price1) * Integer.parseInt(quantity));
+//                }
                 jLabel2.setText(String.valueOf(totalprice));
 
                 JOptionPane.showMessageDialog(rootPane, "Item updated into cart successfully");
