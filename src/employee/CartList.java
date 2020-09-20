@@ -80,13 +80,13 @@ public class CartList extends javax.swing.JFrame {
             try {
                 String qnty = (String) jComboBox1.getSelectedItem();
 
-//                ArrayList al;
-//                for (Map.Entry me : hm.entrySet()) {
-//                    al = (ArrayList) me.getValue();
-//                    if (al.contains(select_itemid)) {
-//                        al.set(3, qnty);
-//                    }
-//                }
+                ArrayList al;
+                for (Map.Entry me : hm.entrySet()) {
+                    al = (ArrayList) me.getValue();
+                    if (al.contains(select_itemid)) {
+                        al.set(3, qnty);
+                    }
+                }
 
                 DefaultTableModel dtm = (DefaultTableModel) jTable1.getModel();
                 String price = (String) jTable1.getValueAt(row, 3);
