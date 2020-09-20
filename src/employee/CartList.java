@@ -48,9 +48,8 @@ public class CartList extends javax.swing.JFrame {
 
         row = jTable1.getSelectedRow();
         select_itemid = (String) jTable1.getValueAt(row, 1);
-//        quantity = (String) jTable1.getValueAt(row, 4);
-//
-//        String id, name = null, price = null, desc = null, category = null;
+        quantity = (String) jTable1.getValueAt(row, 4);
+        String id, name = null, price = null, desc = null, category = null;
 //        byte[] image = null;
 //        try {
 //            Connection con = dbconnection.DbConnection.getConnect();
