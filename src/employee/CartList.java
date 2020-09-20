@@ -1,4 +1,6 @@
 package employee;
 
-public class CartList {
+public class CartList extends javax.swing.JFrame {
+
+
 }
