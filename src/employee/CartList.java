@@ -26,5 +26,6 @@ public class CartList extends javax.swing.JFrame {
     private JComboBox<String> jComboBox1;
     private JLabel jLabel3;
     private JLabel jLabel2;
+    private JLabel jLabel1;
 
 }
