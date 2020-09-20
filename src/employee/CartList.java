@@ -74,56 +74,47 @@ public class CartList extends javax.swing.JFrame {
         }
 
     }
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
-//        int i=JOptionPane.showConfirmDialog(rootPane, "Are you sure you want to update?");
-//        if(i==0)
-//        {
-//            try
-//            {
-//                String qnty=(String)jComboBox1.getSelectedItem();
-//
-//                ArrayList al;
-//                for(Map.Entry me:hm.entrySet())
-//                {
-//                    al=(ArrayList)me.getValue();
-//                    if(al.contains(select_itemid))
-//                    {
-//                        al.set(3, qnty);
-//                    }
-//                }
-//
-//                //updating values in jtable
-//                DefaultTableModel dtm=(DefaultTableModel) jTable1.getModel();
-//
-//                String price=(String)jTable1.getValueAt(row, 3);
-//                dtm.setValueAt(qnty, row, 4);
-//                dtm.setValueAt( (Integer.parseInt(qnty) * Integer.parseInt(price) ), row, 5);
-//
-//                //updating total price
-//                ArrayList al1;
-//                int totalprice=0;
-//                String price1;
-//                for (Map.Entry m : hm.entrySet())
-//                {
-//                    al1=(ArrayList)m.getValue();
-//                    price1=(String)al1.get(2);
-//                    quantity=(String)al1.get(3);
-//
-//                    totalprice=totalprice+( Integer.parseInt(price1) * Integer.parseInt(quantity));
-//                }
-//                jLabel2.setText(String.valueOf(totalprice));
-//
-//                JOptionPane.showMessageDialog(rootPane, "Item updated into cart successfully");
-//            }
-//            catch(Exception e)
-//            {
-//                JOptionPane.showMessageDialog(rootPane, "Item not updated due to some error");
-//            }
+        int i = JOptionPane.showConfirmDialog(rootPane, "Are you sure you want to update?");
+        if (i == 0) {
+            try {
+                String qnty = (String) jComboBox1.getSelectedItem();
+
+                ArrayList al;
+                for (Map.Entry me : hm.entrySet()) {
+                    al = (ArrayList) me.getValue();
+                    if (al.contains(select_itemid)) {
+                        al.set(3, qnty);
+                    }
+                }
+
+                DefaultTableModel dtm = (DefaultTableModel) jTable1.getModel();
+
+                String price = (String) jTable1.getValueAt(row, 3);
+                dtm.setValueAt(qnty, row, 4);
+                dtm.setValueAt((Integer.parseInt(qnty) * Integer.parseInt(price)), row, 5);
+
+                //updating total price
+                ArrayList al1;
+                int totalprice = 0;
+                String price1;
+                for (Map.Entry m : hm.entrySet()) {
+                    al1 = (ArrayList) m.getValue();
+                    price1 = (String) al1.get(2);
+                    quantity = (String) al1.get(3);
+
+                    totalprice = totalprice + (Integer.parseInt(price1) * Integer.parseInt(quantity));
+                }
+                jLabel2.setText(String.valueOf(totalprice));
+
+                JOptionPane.showMessageDialog(rootPane, "Item updated into cart successfully");
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(rootPane, "Item not updated due to some error");
+            }
+        }
+
+
     }
-
-
-}
 
     private JTable jTable1;
     private JLabel jLabel4;
