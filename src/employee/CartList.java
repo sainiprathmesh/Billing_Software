@@ -122,14 +122,14 @@ public class CartList extends javax.swing.JFrame {
             String item_id = (String) jTable1.getValueAt(row, 1);
             int hmkey;
             int ii = 0;
-            for (Map.Entry<Integer, ArrayList> map : this.hm.entrySet()) {
-                ArrayList al = map.getValue();
-                if (al.get(ii).equals(item_id)) {
-                    hmkey = map.getKey();
-                    hm.remove(hmkey);
-                }
-                ii = ii + 1;
-            }
+//            for (Map.Entry<Integer, ArrayList> map : this.hm.entrySet()) {
+//                ArrayList al = map.getValue();
+//                if (al.get(ii).equals(item_id)) {
+//                    hmkey = map.getKey();
+//                    hm.remove(hmkey);
+//                }
+//                ii = ii + 1;
+//            }
 
 
             String totalprice2 = jLabel2.getText();
