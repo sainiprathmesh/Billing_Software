@@ -30,7 +30,7 @@ public class CartList extends javax.swing.JFrame {
         int totalprice = 0;
         for (Map.Entry m : hm.entrySet()) {
             srno = srno + 1;
-//            al = (ArrayList) m.getValue();
+            al = (ArrayList) m.getValue();
 //            id = (String) al.get(0);
 //            name = (String) al.get(1);
 //            price = (String) al.get(2);
