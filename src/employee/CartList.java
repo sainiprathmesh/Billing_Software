@@ -89,12 +89,10 @@ public class CartList extends javax.swing.JFrame {
                 }
 
                 DefaultTableModel dtm = (DefaultTableModel) jTable1.getModel();
-
                 String price = (String) jTable1.getValueAt(row, 3);
                 dtm.setValueAt(qnty, row, 4);
                 dtm.setValueAt((Integer.parseInt(qnty) * Integer.parseInt(price)), row, 5);
 
-                //updating total price
                 ArrayList al1;
                 int totalprice = 0;
                 String price1;
