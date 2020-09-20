@@ -151,7 +151,7 @@ public class CartList extends javax.swing.JFrame {
     }
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {
-//        StartBilling sb=new StartBilling(ed, hm);
+        StartBilling sb = new StartBilling(ed, hm);
 //        sb.setVisible(true);
 //        setVisible(false);
 
