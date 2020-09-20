@@ -46,7 +46,7 @@ public class CartList extends javax.swing.JFrame {
 
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {
 
-//        row = jTable1.getSelectedRow();
+        row = jTable1.getSelectedRow();
 //        select_itemid = (String) jTable1.getValueAt(row, 1);
 //        quantity = (String) jTable1.getValueAt(row, 4);
 //
