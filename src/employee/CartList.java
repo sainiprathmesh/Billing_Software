@@ -24,8 +24,7 @@ public class CartList extends javax.swing.JFrame {
     private void formWindowOpened(java.awt.event.WindowEvent evt) {
         ArrayList al;
         DefaultTableModel dtm = (DefaultTableModel) jTable1.getModel();
-//
-//        int srno=0;
+        int srno = 0;
 //        String name, id, price, quantity;
 //
 //        int totalprice=0;
