@@ -31,10 +31,10 @@ public class CartList extends javax.swing.JFrame {
     private JScrollPane jScrollPane1;
 
     public static void main(String args[]) {
-//        java.awt.EventQueue.invokeLater(new Runnable() {
-//            public void run() {
-//                new CartList(null, null).setVisible(true);
-//            }
-//        });
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new CartList(null, null).setVisible(true);
+            }
+        });
     }
 }
