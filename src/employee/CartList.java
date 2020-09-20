@@ -106,10 +106,9 @@ public class CartList extends javax.swing.JFrame {
                 jLabel2.setText(String.valueOf(totalprice));
 
                 JOptionPane.showMessageDialog(rootPane, "Item updated into cart successfully");
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(rootPane, "Item not updated due to some error");
             }
-//            catch (Exception e) {
-//                JOptionPane.showMessageDialog(rootPane, "Item not updated due to some error");
-//            }
         }
 
 
