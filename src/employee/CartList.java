@@ -94,8 +94,8 @@ public class CartList extends javax.swing.JFrame {
                 dtm.setValueAt((Integer.parseInt(qnty) * Integer.parseInt(price)), row, 5);
 
                 ArrayList al1;
-                int totalprice = 0;
-                String price1;
+//                int totalprice = 0;
+//                String price1;
                 for (Map.Entry m : hm.entrySet()) {
                     al1 = (ArrayList) m.getValue();
                     price1 = (String) al1.get(2);
