@@ -128,7 +128,7 @@ public class CartList extends javax.swing.JFrame {
                     hmkey = map.getKey();
                     hm.remove(hmkey);
                 }
-                ii = ii + 1;
+//                ii = ii + 1;
             }
 
 
