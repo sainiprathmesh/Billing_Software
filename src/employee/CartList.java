@@ -3,6 +3,7 @@ package employee;
 import model.EmpDetails;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -22,7 +23,7 @@ public class CartList extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {
         ArrayList al;
-//        DefaultTableModel dtm=(DefaultTableModel)jTable1.getModel();
+        DefaultTableModel dtm = (DefaultTableModel) jTable1.getModel();
 //
 //        int srno=0;
 //        String name, id, price, quantity;
