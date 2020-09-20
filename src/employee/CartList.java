@@ -11,4 +11,12 @@ public class CartList extends javax.swing.JFrame {
     EmpDetails ed;
     HashMap<Integer, ArrayList> hm;
 
+    public CartList(EmpDetails ed, HashMap hm) {
+
+        this.ed = ed;
+        this.hm = hm;
+
+//        initComponents();
+    }
+
 }
