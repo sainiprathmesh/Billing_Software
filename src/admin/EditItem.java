@@ -1,10 +1,13 @@
 package admin;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.awt.event.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,13 +16,6 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import javax.imageio.ImageIO;
-import javax.swing.GroupLayout;
-import javax.swing.ImageIcon;
-import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
-import javax.swing.LayoutStyle;
-import javax.swing.table.DefaultTableModel;
 
 public class EditItem extends javax.swing.JFrame {
 
@@ -43,6 +39,7 @@ public class EditItem extends javax.swing.JFrame {
         jButton1 = new JButton();
         jButton2 = new JButton();
         jButton3 = new JButton();
+        jLabel1 = new JLabel();
         jLabel2 = new JLabel();
         jLabel3 = new JLabel();
         jLabel4 = new JLabel();
@@ -387,7 +384,7 @@ public class EditItem extends javax.swing.JFrame {
             int i=ps.executeUpdate();
             if(i>0)
             {
-                JOptionPane.showMessageDialog(rootPane, "item deleted successfuly");
+                JOptionPane.showMessageDialog(rootPane, "item deleted successfully");
 
                 EditItem ei=new EditItem();
                 ei.setVisible(true);
