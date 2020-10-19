@@ -117,6 +117,8 @@ public class StartBilling extends javax.swing.JFrame {
             jTextArea1.setRows(5);
             jScrollPane1.setViewportView(jTextArea1);
         }
+        jButton1.setText("Add To Cart");
+//        jButton1.addActionListener(e -> jButton1ActionPerformed(e));
 
     }
 
