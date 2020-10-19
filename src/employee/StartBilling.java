@@ -57,4 +57,8 @@ public class StartBilling extends javax.swing.JFrame {
 
     }
 
+    private void initComponents() {
+
+    }
+
 }
