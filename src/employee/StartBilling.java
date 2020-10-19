@@ -70,10 +70,10 @@ public class StartBilling extends javax.swing.JFrame {
         jLabel9 = new JLabel();
         jLabel10 = new JLabel();
         jLabel12 = new JLabel();
-//        jScrollPane1 = new JScrollPane();
-//        jTextArea1 = new JTextArea();
-//        jButton1 = new JButton();
-//        jComboBox1 = new JComboBox<>();
+        jScrollPane1 = new JScrollPane();
+        jTextArea1 = new JTextArea();
+        jButton1 = new JButton();
+        jComboBox1 = new JComboBox<>();
 //        jLabel11 = new JLabel();
 //        jButton2 = new JButton();
 
