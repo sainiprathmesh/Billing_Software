@@ -1,4 +1,6 @@
 package employee;
 
-public class StartBilling {
+public class StartBilling extends javax.swing.JFrame {
+
+
 }
