@@ -237,4 +237,9 @@ public class StartBilling extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }
 
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {
+
+    }
+
+
 }
