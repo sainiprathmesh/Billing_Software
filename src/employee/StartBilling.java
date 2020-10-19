@@ -92,6 +92,17 @@ public class StartBilling extends javax.swing.JFrame {
 //            }
 //        });
 
+
+//        jTextField1.addKeyListener(new KeyAdapter() {
+//            @Override
+//            public void keyReleased(KeyEvent e) {
+//                jTextField1KeyReleased(e);
+//            }
+//        });
+
+
+        jLabel2.setText("Item ID :");
+
     }
 
 }
