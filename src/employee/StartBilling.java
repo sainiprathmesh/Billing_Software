@@ -4,6 +4,9 @@ import model.EmpDetails;
 
 import javax.swing.*;
 import java.awt.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -246,6 +249,47 @@ public class StartBilling extends javax.swing.JFrame {
     private void jTextField1KeyReleased(java.awt.event.KeyEvent evt) {
         String item_id = jTextField1.getText();
         String name = null, price = null, desc = null, category = null;
+        byte[] image = null;
+
+        try {
+            Connection con = dbconnection.DbConnection.getConnect();
+            PreparedStatement ps = con.prepareStatement("select * from items where item_id='" + item_id + "'");
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                name = rs.getString("item_name");
+                price = rs.getString("item_price");
+                desc = rs.getString("item_desc");
+                category = rs.getString("item_category");
+                image = rs.getBytes("item_image");
+            }
+
+            jTextArea1.setText(desc);
+            jLabel8.setText(name);
+            jLabel9.setText(price);
+            jLabel10.setText(category);
+            jLabel11.setText(price);
+
+            if (image != null) {
+                Image img = Toolkit.getDefaultToolkit().createImage(image);
+                Image new_imgg = img.getScaledInstance(jLabel12.getWidth(), jLabel12.getHeight(), Image.SCALE_SMOOTH);
+                ImageIcon icon = new ImageIcon(new_imgg);
+                jLabel12.setIcon(icon);
+                jComboBox1.setSelectedIndex(0);
+                jComboBox1.setEnabled(true);
+
+                jButton1.setEnabled(true);
+            } else {
+                jLabel12.setIcon(new ImageIcon(getClass().getResource("/images/no_products_found.png")));
+
+                jComboBox1.setSelectedIndex(0);
+                jComboBox1.setEnabled(false);
+
+                jButton1.setEnabled(false);
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
     }
 
 
