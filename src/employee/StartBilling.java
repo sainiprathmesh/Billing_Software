@@ -294,7 +294,9 @@ public class StartBilling extends javax.swing.JFrame {
 
     private void jComboBox1ItemStateChanged(java.awt.event.ItemEvent evt) {
         String price = jLabel9.getText();
-
+        if (price.trim().equals("")) {
+            price = "0";
+        }
     }
 
 
