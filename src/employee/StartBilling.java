@@ -34,7 +34,10 @@ public class StartBilling extends javax.swing.JFrame {
     public StartBilling(EmpDetails ed, HashMap hm) {
 //        initComponents();
         jButton1.setEnabled(false);
-//        jComboBox1.setEnabled(false);
+        jComboBox1.setEnabled(false);
+        this.ed = ed;
+
+        System.out.println(hm);
     }
 
 }
