@@ -102,6 +102,21 @@ public class StartBilling extends javax.swing.JFrame {
 
 
         jLabel2.setText("Item ID :");
+        jLabel3.setText("Item Name :");
+        jLabel4.setText("Item Price :");
+        jLabel5.setText("Item Category :");
+        jLabel6.setText("Item Description :");
+        jLabel7.setText("Image");
+        jLabel8.setText("_________________________________________");
+        jLabel9.setText("_________________________________________");
+        jLabel10.setText("_________________________________________");
+
+        {
+            jTextArea1.setEditable(false);
+            jTextArea1.setColumns(20);
+            jTextArea1.setRows(5);
+            jScrollPane1.setViewportView(jTextArea1);
+        }
 
     }
 
