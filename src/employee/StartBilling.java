@@ -3,6 +3,7 @@ package employee;
 import model.EmpDetails;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -74,9 +75,22 @@ public class StartBilling extends javax.swing.JFrame {
         jTextArea1 = new JTextArea();
         jButton1 = new JButton();
         jComboBox1 = new JComboBox<>();
-//        jLabel11 = new JLabel();
-//        jButton2 = new JButton();
+        jLabel11 = new JLabel();
+        jButton2 = new JButton();
 
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        var contentPane = getContentPane();
+
+        jLabel1.setFont(new Font("Tahoma", Font.BOLD, 18));
+        jLabel1.setForeground(new Color(255, 0, 51));
+        jLabel1.setText("Back");
+        jLabel1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+//        jLabel1.addMouseListener(new MouseAdapter() {
+//            @Override
+//            public void mouseClicked(MouseEvent e) {
+//                jLabel1MouseClicked(e);
+//            }
+//        });
 
     }
 
