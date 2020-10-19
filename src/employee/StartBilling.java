@@ -244,7 +244,8 @@ public class StartBilling extends javax.swing.JFrame {
     }
 
     private void jTextField1KeyReleased(java.awt.event.KeyEvent evt) {
-
+        String item_id = jTextField1.getText();
+        String name = null, price = null, desc = null, category = null;
     }
 
 
