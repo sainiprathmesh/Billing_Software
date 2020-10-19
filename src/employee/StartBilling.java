@@ -317,7 +317,7 @@ public class StartBilling extends javax.swing.JFrame {
         String quantity = (String) jComboBox1.getSelectedItem();
 
         al = new ArrayList();
-//        al.add(itemid);
+        al.add(itemid);
 //        al.add(itemname);
 //        al.add(itemprice);
 //        al.add(quantity);
