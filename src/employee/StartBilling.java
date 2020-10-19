@@ -4,6 +4,8 @@ import model.EmpDetails;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.sql.Connection;
@@ -98,12 +100,12 @@ public class StartBilling extends javax.swing.JFrame {
         });
 
 
-//        jTextField1.addKeyListener(new KeyAdapter() {
-//            @Override
-//            public void keyReleased(KeyEvent e) {
-//                jTextField1KeyReleased(e);
-//            }
-//        });
+        jTextField1.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyReleased(KeyEvent e) {
+                jTextField1KeyReleased(e);
+            }
+        });
 
 
         jLabel2.setText("Item ID :");
