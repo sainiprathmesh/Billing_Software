@@ -4,6 +4,8 @@ import model.EmpDetails;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -88,12 +90,12 @@ public class StartBilling extends javax.swing.JFrame {
         jLabel1.setForeground(new Color(255, 0, 51));
         jLabel1.setText("Back");
         jLabel1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-//        jLabel1.addMouseListener(new MouseAdapter() {
-//            @Override
-//            public void mouseClicked(MouseEvent e) {
-//                jLabel1MouseClicked(e);
-//            }
-//        });
+        jLabel1.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                jLabel1MouseClicked(e);
+            }
+        });
 
 
 //        jTextField1.addKeyListener(new KeyAdapter() {
