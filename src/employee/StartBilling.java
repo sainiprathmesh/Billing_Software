@@ -119,6 +119,18 @@ public class StartBilling extends javax.swing.JFrame {
         }
         jButton1.setText("Add To Cart");
 //        jButton1.addActionListener(e -> jButton1ActionPerformed(e));
+        jComboBox1.setModel(new DefaultComboBoxModel<>(new String[]{
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10"
+        }));
 
     }
 
