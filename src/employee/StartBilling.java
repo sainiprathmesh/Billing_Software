@@ -33,7 +33,7 @@ public class StartBilling extends javax.swing.JFrame {
     private JButton jButton2;
 
     public StartBilling(EmpDetails ed, HashMap hm) {
-//        initComponents();
+        initComponents();
         jButton1.setEnabled(false);
         jComboBox1.setEnabled(false);
         this.ed = ed;
