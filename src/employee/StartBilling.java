@@ -58,6 +58,25 @@ public class StartBilling extends javax.swing.JFrame {
     }
 
     private void initComponents() {
+        jLabel1 = new JLabel();
+        jTextField1 = new JTextField();
+        jLabel2 = new JLabel();
+        jLabel3 = new JLabel();
+        jLabel4 = new JLabel();
+        jLabel5 = new JLabel();
+        jLabel6 = new JLabel();
+        jLabel7 = new JLabel();
+        jLabel8 = new JLabel();
+        jLabel9 = new JLabel();
+        jLabel10 = new JLabel();
+        jLabel12 = new JLabel();
+//        jScrollPane1 = new JScrollPane();
+//        jTextArea1 = new JTextArea();
+//        jButton1 = new JButton();
+//        jComboBox1 = new JComboBox<>();
+//        jLabel11 = new JLabel();
+//        jButton2 = new JButton();
+
 
     }
 
