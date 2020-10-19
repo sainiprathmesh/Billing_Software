@@ -340,6 +340,9 @@ public class StartBilling extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 
+        CartList cl = new CartList(ed, hm);
+//        cl.setVisible(true);
+//        setVisible(false);
     }
 
 }
