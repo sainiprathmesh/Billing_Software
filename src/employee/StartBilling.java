@@ -318,9 +318,9 @@ public class StartBilling extends javax.swing.JFrame {
 
         al = new ArrayList();
         al.add(itemid);
-//        al.add(itemname);
-//        al.add(itemprice);
-//        al.add(quantity);
+        al.add(itemname);
+        al.add(itemprice);
+        al.add(quantity);
     }
 
 
