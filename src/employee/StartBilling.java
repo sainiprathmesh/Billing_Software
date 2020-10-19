@@ -125,7 +125,7 @@ public class StartBilling extends javax.swing.JFrame {
             jScrollPane1.setViewportView(jTextArea1);
         }
         jButton1.setText("Add To Cart");
-//        jButton1.addActionListener(e -> jButton1ActionPerformed(e));
+        jButton1.addActionListener(e -> jButton1ActionPerformed(e));
         jComboBox1.setModel(new DefaultComboBoxModel<>(new String[]{
                 "1",
                 "2",
@@ -138,11 +138,11 @@ public class StartBilling extends javax.swing.JFrame {
                 "9",
                 "10"
         }));
-//        jComboBox1.addItemListener(e -> jComboBox1ItemStateChanged(e));
+        jComboBox1.addItemListener(e -> jComboBox1ItemStateChanged(e));
         jLabel11.setText("____________________");
 
         jButton2.setText("Continue");
-//        jButton2.addActionListener(e -> jButton2ActionPerformed(e));
+        jButton2.addActionListener(e -> jButton2ActionPerformed(e));
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
         contentPane.setLayout(contentPaneLayout);
         contentPaneLayout.setHorizontalGroup(
