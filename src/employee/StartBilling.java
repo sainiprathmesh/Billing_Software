@@ -240,7 +240,11 @@ public class StartBilling extends javax.swing.JFrame {
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {
         EmpPanel ep = new EmpPanel(ed);
         ep.setVisible(true);
-//        setVisible(false);
+        setVisible(false);
+    }
+
+    private void jTextField1KeyReleased(java.awt.event.KeyEvent evt) {
+
     }
 
 
