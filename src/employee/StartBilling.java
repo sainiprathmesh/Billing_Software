@@ -302,6 +302,8 @@ public class StartBilling extends javax.swing.JFrame {
 
             int total = Integer.parseInt(price) * Integer.parseInt(no);
             jLabel11.setText(String.valueOf(total));
+        } else {
+            jLabel11.setText("__________________");
         }
     }
 
