@@ -131,7 +131,11 @@ public class StartBilling extends javax.swing.JFrame {
                 "9",
                 "10"
         }));
+//        jComboBox1.addItemListener(e -> jComboBox1ItemStateChanged(e));
+        jLabel11.setText("____________________");
 
+        jButton2.setText("Continue");
+//        jButton2.addActionListener(e -> jButton2ActionPerformed(e));
     }
 
 }
