@@ -5,6 +5,7 @@ import model.EmpDetails;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class StartBilling extends javax.swing.JFrame {
     ArrayList al;
@@ -38,6 +39,22 @@ public class StartBilling extends javax.swing.JFrame {
         this.ed = ed;
 
         System.out.println(hm);
+        if (hm == null) {
+            this.hm = new HashMap<>();
+            jButton2.setEnabled(false);
+        } else {
+            this.hm = hm;
+
+            for (Map.Entry<Integer, ArrayList> map : this.hm.entrySet()) {
+                int key = map.getKey();
+                if (key > count) {
+                    count = key;
+                }
+            }
+
+            jButton2.setEnabled(true);
+        }
+
     }
 
 }
