@@ -233,6 +233,8 @@ public class StartBilling extends javax.swing.JFrame {
                                 .addGap(95, 95, 95))
         );
 
+        pack();
+        setLocationRelativeTo(null);
     }
 
 }
