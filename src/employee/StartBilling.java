@@ -338,11 +338,19 @@ public class StartBilling extends javax.swing.JFrame {
 
     }
 
+    public static void main(String args[]) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new StartBilling(null, null).setVisible(true);
+            }
+        });
+    }
+
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 
         CartList cl = new CartList(ed, hm);
         cl.setVisible(true);
         setVisible(false);
-    }
 
+    }
 }
