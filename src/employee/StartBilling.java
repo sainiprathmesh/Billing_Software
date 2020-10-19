@@ -308,6 +308,13 @@ public class StartBilling extends javax.swing.JFrame {
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        JOptionPane.showMessageDialog(rootPane, "Item added to cart successfully");
+        count = count + 1;
+
+        String itemid = jTextField1.getText();
+        String itemname = jLabel8.getText();
+        String itemprice = jLabel9.getText();
+        String quantity = (String) jComboBox1.getSelectedItem();
 
     }
 
