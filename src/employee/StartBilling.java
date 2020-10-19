@@ -297,6 +297,12 @@ public class StartBilling extends javax.swing.JFrame {
         if (price.trim().equals("")) {
             price = "0";
         }
+        if (price != null) {
+            String no = (String) jComboBox1.getSelectedItem();
+
+            int total = Integer.parseInt(price) * Integer.parseInt(no);
+            jLabel11.setText(String.valueOf(total));
+        }
     }
 
 
