@@ -136,6 +136,8 @@ public class StartBilling extends javax.swing.JFrame {
 
         jButton2.setText("Continue");
 //        jButton2.addActionListener(e -> jButton2ActionPerformed(e));
+        GroupLayout contentPaneLayout = new GroupLayout(contentPane);
+        contentPane.setLayout(contentPaneLayout);
     }
 
 }
