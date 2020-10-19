@@ -321,7 +321,25 @@ public class StartBilling extends javax.swing.JFrame {
         al.add(itemname);
         al.add(itemprice);
         al.add(quantity);
+
+        hm.put(count, al);
+
+        jTextField1.setText("");
+        jLabel8.setText("");
+        jLabel9.setText("");
+        jLabel10.setText("");
+        jTextArea1.setText("");
+        jLabel12.setIcon(new ImageIcon(getClass().getResource("/images/no_products_found.png")));
+        jComboBox1.setSelectedIndex(0);
+        jComboBox1.setEnabled(false);
+        jLabel11.setText("");
+        jButton1.setEnabled(false);
+        jButton2.setEnabled(true);
+
     }
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+
+    }
 
 }
