@@ -292,5 +292,9 @@ public class StartBilling extends javax.swing.JFrame {
 
     }
 
+    private void jComboBox1ItemStateChanged(java.awt.event.ItemEvent evt) {
+
+    }
+
 
 }
