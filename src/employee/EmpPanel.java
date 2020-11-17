@@ -128,8 +128,8 @@ public class EmpPanel extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 
         HashMap hm = new HashMap();
-        // StartBilling sb=new StartBilling(ed, hm);
-        //sb.setVisible(true);
+        StartBilling sb = new StartBilling(ed, hm);
+        sb.setVisible(true);
         setVisible(false);
 
     }
